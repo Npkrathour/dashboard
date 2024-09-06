@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dashboard</title>
+    <link rel="shortcut icon" href="asset/images/about-1.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="asset/css/style.css">
+</head>
+
+<body>
+    <!-- ==========asside section============ -->
+    <section class="main_container overflow-hidden">
+        <div class="container-fluid p-lg-0">
+            <div class="row">
+                <div class="sideWidth" id="hideNavbar">
+                    <div class="side-nav">
+                        <div class="left-side" style="height: 100vh;">
+                            <div
+                                class="side_nav_section d-flex justify-content-between align-items-center gap-3 px-3 py-3">
+                                <div class="brand-logo">
+                                    <a href="index.html"><img src="asset/images/logo.png" alt=""></a>
+                                </div>
+                                <div class="toggle">
+                                    <img src="asset/images/toggle-icon.png" alt="">
+                                </div>
+                            </div>
+                            <!-- ==========start side nav section======== -->
+                            <div class="navTab">
+                                <ul class="list-unstyled p-lg-3">
+                                    <li class="content">
+                                        <h6>Dashboard</h6>
+                                    </li>
+                                    <li class=" navlinks">
+                                        <a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                            href="home.html"><span class="iconify"
+                                                data-icon="akar-icons:dashboard"></span>
+                                            Home</a>
+                                    </li>
+                                    <li class=" navlinks">
+                                        <a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                            href="analytics.html"><span class="iconify"
+                                                data-icon="ion:analytics"></span>
+                                            Analytics</a>
+                                    </li>
+                                    <li class="opentoggle  navlinks">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <a class="text-decoration-none d-inline-flex gap-2 align-items-center mb-0"
+                                                href="javscript:void(0);">
+                                                <span class="iconify" data-icon="tdesign:user"></span>
+                                                User
+                                            </a>
+                                            <span class="iconify toggleIcon fs-4 mb-0 text-dark"
+                                                data-icon="tabler:chevron-down"></span>
+                                        </div>
+                                        <ul class="list-unstyled innerTab" id="innerTab">
+                                            <li><a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                                    href=""><span class="iconify "
+                                                        data-icon="teenyicons:user-outline"></span> All Users</a></li>
+                                            <li><a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                                    href="">
+                                                    <span class="iconify" data-icon="ri:user-add-line"></span>
+                                                    Subscribers</a></li>
+                                            <li>
+                                                <a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                                    href="">
+                                                    <span class="iconify" data-icon="tabler:user-x"></span> Non
+                                                    Subscribers</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="content">
+                                        <h6>Content Management</h6>
+                                    </li>
+                                    <li class=" navlinks">
+                                        <a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                            href="home1.html"><span class="iconify" data-icon="ph:globe-light"></span>
+                                            Home</a>
+                                    </li>
+                                    <li class=" navlinks">
+                                        <a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                            href="about.html"><span class="iconify" data-icon="ph:globe-light"></span>
+                                            About</a>
+                                    </li>
+                                    <li class="openProduct navlinks">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                                href="javscript:void(0);">
+                                                <span class="iconify" data-icon="tdesign:user"></span>
+                                                Products
+                                            </a>
+                                            <span class="iconify productIcon fs-4 text-dark"
+                                                data-icon="tabler:chevron-down"></span>
+                                        </div>
+                                        <ul class="list-unstyled productSlide" id="innerTab">
+                                            <li><a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                                    href="winder.html"><span class="iconify "
+                                                        data-icon="ph:globe-light"></span>Windriver Tool</a>
+                                            </li>
+                                            <li><a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                                    href="windspeed.html">
+                                                    <span class="iconify" data-icon="ph:globe-light"></span>
+                                                    Winspeed Pro</a></li>
+                                            <li>
+                                                <a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                                    href="zone.html">
+                                                    <span class="iconify" data-icon="ph:globe-light"></span>
+                                                    zone Firewall</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class=" navlinks">
+                                        <a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                            href="pricing.html"><span class="iconify" data-icon="ph:globe-light"></span>
+                                            Pricing</a>
+                                    </li>
+                                    <li class=" navlinks">
+                                        <a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                            href="contact.html"><span class="iconify" data-icon="ph:globe-light"></span>
+                                            Contact Us</a>
+                                    </li>
+                                    <li class=" navlinks">
+                                        <a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                            href="faqs.html"><span class="iconify" data-icon="ph:globe-light"></span>
+                                            FAQs</a>
+                                    </li>
+                                    <li class="content">
+                                        <h6>Account & Settings</h6>
+                                    </li>
+                                    <li class=" navlinks">
+                                        <a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                            href="index.html"><span class="iconify"
+                                                data-icon="iconamoon:profile-light"></span>
+                                            My Profile</a>
+                                    </li>
+                                    <li class=" navlinks">
+                                        <a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                            href=""><span class="iconify" data-icon="icon-park-outline:setting"></span>
+                                            Settings</a>
+                                    </li>
+                                    <a class="text-decoration-none btn d-inline-flex gap-2 align-items-center"
+                                        href="logout.html"><span class="iconify fs-4"
+                                            data-icon="fluent:arrow-exit-20-filled"></span>
+                                        Logout</a>
+
+                                </ul>
+                            </div>
+                            <!-- ==========End side nav section======== -->
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+                <div class="mainContainer">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#"> <img src="asset/images/toggle-icon.png" alt=""></a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <div class="d-flex justify-content-between align-items-center w-100">
+                                    <form action="" method="get" class="search-form">
+                                        <div class="form-group">
+                                            <input type="text" placeholder="Search here...."
+                                                class="form-control shadow-none" id="" required>
+                                            <span class="iconify" data-icon="bi:search"></span>
+                                        </div>
+                                    </form>
+                                    <div
+                                        class="notification-details d-flex justify-content-center align-items-center gap-3">
+                                        <div class="notify_ring position-relative">
+                                            <span class="iconify" data-icon="bi:bell"></span>
+                                            <small class="number">1</small>
+                                        </div>
+                                        <div class="prev_user">
+                                            <img src="asset/images/prev_user.png" alt="">
+                                        </div>
+                                        <div class="user_details">
+                                            <h6 class="mb-0">Ryan Williams</h6>
+                                            <p class="mb-0">Admin</p>
+                                        </div>
+                                        <div class="user_setting">
+                                            <span class="iconify ps-1" data-icon="lets-icons:setting-line"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+
+                    <!-- ====================home section start=========== -->
+                    <div class="home_section mx-xl-4 mx-lg-1 py-lg-1">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6 col-md-6 col-12 my-3">
+                                    <div class="cms-card">
+                                        <h1 class="mb-0">CMS : Contact Us</h2>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-12 my-3">
+                                    <div class="bread d-flex justify-content-end align-items-center">
+                                        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="mb-0">
+                                            <ol class="breadcrumb ">
+                                                <li class="breadcrumb-item currentLinks"><a href="#"
+                                                        class="text-decoration-none">Content
+                                                        Management</a></li>
+
+                                                <li class="breadcrumb-item active" aria-current="page">Contact Us
+                                                </li>
+                                            </ol>
+                                        </nav>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- =========contact us section============== -->
+                    <section class="contact-section bgCommon mx-xl-4 mx-lg-1 py-lg-4 my-4">
+                        <div class="container-fluid px-lg-0">
+                            <div class="details px-lg py-2">
+                                <h2>Section : Contact Us</h2>
+                            </div>
+                            <hr>
+                            <form action="" method="get">
+                                <div class="row px-lg">
+                                    <div class="col-lg-4 col-md-4 col-12 my-3">
+                                        <div class="contact-card">
+                                            <h3>image</h3>
+                                            <div class="contact-img image-box position-relative">
+                                                <img src="https://thepreview.pro/advance_driver/assets/images/contact-1.png"
+                                                    alt="" class="w-100 img-fluid contact img-preview">
+                                                <div class="updatebtn">
+                                                    <label class="upload">
+                                                        <input class="file-input" type="file" />
+                                                        <span
+                                                            class="btn shadow-none bg-transparent d-inline-flex align-items-center justify-content-center gap-1">
+                                                            <img src="asset/images/home1/material-symbols_edit.png"
+                                                                alt="">img 1
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="notification pt-2 pb-3">
+                                                <p class="mb-0"><span>Note</span> : Upload image size&nbsp;<span>
+                                                    </span>- (580*490)px
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-8 col-md-8 col-12 my-3">
+                                        <div class="contact-details px-1">
+                                            <div class="mb-3">
+                                                <label for="" class="form-label">Super Heading</label>
+                                                <input type="text" name="" id="" class="form-control my-2 shadow-none"
+                                                    value="Hear from Our Satisfied Customers" placeholder="" />
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="" class="form-label">Heading</label>
+                                                <input type="text" name="" id="" class="form-control my-2 shadow-none"
+                                                    value="What Our Users Say" placeholder="" />
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="" class="form-label">Description</label>
+                                                <textarea type="text" name="" id="" rows="5"
+                                                    class="form-control my-2 shadow-none"
+                                                    value="https://www.example.com">Discover firsthand experiences from our satisfied customers who have benefited from our suite of PC enhancement tools. Read their testimonials to learn how our solutions have transformed their computing experience and why they trust us for their PC optimization needs.</textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="update pt-2 pb-2">
+                                        <button type="submit" class="btn">Update</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </section>
+                    <!-- ================contact card============== -->
+                    <section class="contact_card bgCommon mx-xl-4 mx-lg-1 py-lg-4 my-4">
+                        <div class="container-fluid px-lg-0">
+                            <div class="details contact_details py-2 px-lg">
+                                <h2>Section : Contact Us - Cards</h2>
+                            </div>
+                            <hr>
+                            <div>
+                                <div class="row px-lg">
+                                    <div class="col-lg-4 col-md-4 col-12 my-3">
+                                        <div class="contact_coloum bgInner">
+                                            <h3>Icon</h3>
+                                            <div class="contact_icon text-center image-box position-relative">
+                                                <img src="https://thepreview.pro/advance_driver/assets/images/email.png"
+                                                    alt="" class="contImg img-preview">
+                                                <div class="updatebtn">
+                                                    <label class="upload">
+                                                        <input class="file-input" type="file" />
+                                                        <span
+                                                            class="btn shadow-none bg-transparent d-inline-flex align-items-center justify-content-center  gap-1">
+                                                            <img src="asset/images/home1/material-symbols_edit.png"
+                                                                alt="">img 1
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="notification pt-2 pb-3">
+                                                <p class="mb-0"><span>Note</span> : Upload image size&nbsp;<span>
+                                                    </span>(780*880)px &nbsp;<span class="line">|</span> Only PNG Format
+
+                                                </p>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="" class="form-label">Super Heading</label>
+                                                <input type="text" name="" id="" class="form-control my-2 shadow-none"
+                                                    value="Hear from Our Satisfied Customers" placeholder="" />
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="" class="form-label">Description</label>
+                                                <textarea type="text" name="" id="" rows="5"
+                                                    class="form-control my-2 shadow-none"
+                                                    value="https://www.example.com">info@advancedriver.com</textarea>
+                                            </div>
+                                        </div>
+                                        <div class="update pt-4">
+                                            <button type="submit" class="btn">Update</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-12 my-3">
+                                        <div class="contact_coloum bgInner">
+                                            <h3>Icon</h3>
+                                            <div class="contact_icon text-center image-box position-relative">
+                                                <img src="https://thepreview.pro/advance_driver/assets/images/phone.png"
+                                                    alt="" class="contImg img-preview">
+                                                <div class="updatebtn">
+                                                    <label class="upload">
+                                                        <input class="file-input" type="file" />
+                                                        <span
+                                                            class="btn shadow-none bg-transparent d-inline-flex align-items-center justify-content-center  gap-1">
+                                                            <img src="asset/images/home1/material-symbols_edit.png"
+                                                                alt="">img 1
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="notification pt-2 pb-3">
+                                                <p class="mb-0"><span>Note</span> : Upload image size&nbsp;<span>
+                                                    </span>(780*880)px &nbsp;<span class="line">|</span> Only PNG Format
+
+                                                </p>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="" class="form-label">Super Heading</label>
+                                                <input type="text" name="" id="" class="form-control my-2 shadow-none"
+                                                    value="Hear from Our Satisfied Customers" placeholder="" />
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="" class="form-label">Description</label>
+                                                <textarea type="text" name="" id="" rows="5"
+                                                    class="form-control my-2 shadow-none"
+                                                    value="https://www.example.com">info@advancedriver.com</textarea>
+                                            </div>
+                                        </div>
+                                        <div class="update pt-4">
+                                            <button type="submit" class="btn">Update</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-12 my-3">
+                                        <div class="contact_coloum bgInner">
+                                            <h3>Icon</h3>
+                                            <div class="contact_icon text-center image-box position-relative">
+                                                <img src="https://thepreview.pro/advance_driver/assets/images/location.png"
+                                                    alt="" class="contImg img-preview">
+                                                <div class="updatebtn">
+                                                    <label class="upload">
+                                                        <input class="file-input" type="file" />
+                                                        <span
+                                                            class="btn shadow-none bg-transparent d-inline-flex align-items-center justify-content-center  gap-1">
+                                                            <img src="asset/images/home1/material-symbols_edit.png"
+                                                                alt="">img 1
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="notification pt-2 pb-3">
+                                                <p class="mb-0"><span>Note</span> : Upload image size&nbsp;<span>
+                                                    </span>(780*880)px &nbsp;<span class="line">|</span> Only PNG Format
+
+                                                </p>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="" class="form-label">Super Heading</label>
+                                                <input type="text" name="" id="" class="form-control my-2 shadow-none"
+                                                    value="Hear from Our Satisfied Customers" placeholder="" />
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="" class="form-label">Description</label>
+                                                <textarea type="text" name="" id="" rows="5"
+                                                    class="form-control my-2 shadow-none"
+                                                    value="https://www.example.com">info@advancedriver.com</textarea>
+                                            </div>
+                                        </div>
+                                        <div class="update pt-4">
+                                            <button type="submit" class="btn">Update</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- ===============inner container End section============== -->
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/iconify/2.0.0/iconify.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="/path/to/cdn/jquery.min.js"></script>
+
+<script src="asset/js/main.js"></script>
+
+</html>

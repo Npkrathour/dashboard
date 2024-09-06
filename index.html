@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dashboard</title>
+    <link rel="shortcut icon" href="asset/images/about-1.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="asset/css/style.css">
+</head>
+
+<body>
+    <!-- ==========asside section============ -->
+    <section class="main_container overflow-hidden">
+        <div class="container-fluid p-lg-0">
+            <div class="row">
+                <div class="sideWidth" id="hideNavbar">
+                    <div class="side-nav">
+                        <div class="left-side" style="height: 100vh;">
+                            <div
+                                class="side_nav_section d-flex justify-content-between align-items-center gap-3 px-3 py-3">
+                                <div class="brand-logo">
+                                    <a href="index.html"><img src="asset/images/logo.png" alt=""></a>
+                                </div>
+                                <div class="toggle">
+                                    <img src="asset/images/toggle-icon.png" alt="">
+                                </div>
+                            </div>
+                            <!-- ==========start side nav section======== -->
+                            <div class="navTab">
+                                <ul class="list-unstyled p-lg-3">
+                                    <li class="content">
+                                        <h6>Dashboard</h6>
+                                    </li>
+                                    <li class=" navlinks">
+                                        <a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                            href="home.html"><span class="iconify"
+                                                data-icon="akar-icons:dashboard"></span>
+                                            Home</a>
+                                    </li>
+                                    <li class=" navlinks">
+                                        <a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                            href="analytics.html"><span class="iconify"
+                                                data-icon="ion:analytics"></span>
+                                            Analytics</a>
+                                    </li>
+                                    <li class="opentoggle  navlinks">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <a class="text-decoration-none d-inline-flex gap-2 align-items-center mb-0"
+                                                href="javscript:void(0);">
+                                                <span class="iconify" data-icon="tdesign:user"></span>
+                                                User
+                                            </a>
+                                            <span class="iconify toggleIcon fs-4 mb-0 text-dark"
+                                                data-icon="tabler:chevron-down"></span>
+                                        </div>
+                                        <ul class="list-unstyled innerTab" id="innerTab">
+                                            <li><a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                                    href=""><span class="iconify "
+                                                        data-icon="teenyicons:user-outline"></span> All Users</a></li>
+                                            <li><a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                                    href="">
+                                                    <span class="iconify" data-icon="ri:user-add-line"></span>
+                                                    Subscribers</a></li>
+                                            <li>
+                                                <a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                                    href="">
+                                                    <span class="iconify" data-icon="tabler:user-x"></span> Non
+                                                    Subscribers</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="content">
+                                        <h6>Content Management</h6>
+                                    </li>
+                                    <li class=" navlinks">
+                                        <a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                            href="home1.html"><span class="iconify" data-icon="ph:globe-light"></span>
+                                            Home</a>
+                                    </li>
+                                    <li class=" navlinks">
+                                        <a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                            href="about.html"><span class="iconify" data-icon="ph:globe-light"></span>
+                                            About</a>
+                                    </li>
+                                    <li class="openProduct navlinks">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                                href="javscript:void(0);">
+                                                <span class="iconify" data-icon="tdesign:user"></span>
+                                                Products
+                                            </a>
+                                            <span class="iconify productIcon fs-4 text-dark"
+                                                data-icon="tabler:chevron-down"></span>
+                                        </div>
+                                        <ul class="list-unstyled productSlide" id="innerTab">
+                                            <li><a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                                    href="winder.html"><span class="iconify "
+                                                        data-icon="ph:globe-light"></span>Windriver Tool</a>
+                                            </li>
+                                            <li><a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                                    href="windspeed.html">
+                                                    <span class="iconify" data-icon="ph:globe-light"></span>
+                                                    Winspeed Pro</a></li>
+                                            <li>
+                                                <a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                                    href="zone.html">
+                                                    <span class="iconify" data-icon="ph:globe-light"></span>
+                                                    zone Firewall</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class=" navlinks">
+                                        <a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                            href="pricing.html"><span class="iconify" data-icon="ph:globe-light"></span>
+                                            Pricing</a>
+                                    </li>
+                                    <li class=" navlinks">
+                                        <a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                            href="contact.html"><span class="iconify" data-icon="ph:globe-light"></span>
+                                            Contact Us</a>
+                                    </li>
+                                    <li class=" navlinks">
+                                        <a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                            href="faqs.html"><span class="iconify" data-icon="ph:globe-light"></span>
+                                            FAQs</a>
+                                    </li>
+                                    <li class="content">
+                                        <h6>Account & Settings</h6>
+                                    </li>
+                                    <li class=" navlinks">
+                                        <a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                            href="index.html"><span class="iconify"
+                                                data-icon="iconamoon:profile-light"></span>
+                                            My Profile</a>
+                                    </li>
+                                    <li class=" navlinks">
+                                        <a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                            href=""><span class="iconify" data-icon="icon-park-outline:setting"></span>
+                                            Settings</a>
+                                    </li>
+                                    <a class="text-decoration-none btn d-inline-flex gap-2 align-items-center"
+                                        href="logout.html"><span class="iconify fs-4"
+                                            data-icon="fluent:arrow-exit-20-filled"></span>
+                                        Logout</a>
+
+                                </ul>
+                            </div>
+                            <!-- ==========End side nav section======== -->
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+                <div class="mainContainer">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#"> <img src="asset/images/toggle-icon.png" alt=""></a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <div class="d-flex justify-content-between align-items-center w-100">
+                                    <form action="" method="get" class="search-form">
+                                        <div class="form-group">
+                                            <input type="text" placeholder="Search here...."
+                                                class="form-control shadow-none" id="" required>
+                                            <span class="iconify" data-icon="bi:search"></span>
+                                        </div>
+                                    </form>
+                                    <div
+                                        class="notification-details d-flex justify-content-center align-items-center gap-3">
+                                        <div class="notify_ring position-relative">
+                                            <span class="iconify" data-icon="bi:bell"></span>
+                                            <small class="number">1</small>
+                                        </div>
+                                        <div class="prev_user">
+                                            <img src="asset/images/prev_user.png" alt="">
+                                        </div>
+                                        <div class="user_details">
+                                            <h6 class="mb-0">Ryan Williams</h6>
+                                            <p class="mb-0">Admin</p>
+                                        </div>
+                                        <div class="user_setting">
+                                            <span class="iconify ps-1" data-icon="lets-icons:setting-line"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+
+
+                    <!-- ===============inner container start section============== -->
+                    <div class="profile_section mx-xl-4 mx-lg-1 py-lg-1">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6 col-md-6 col-12 my-3">
+                                    <div class="profile-card">
+                                        <h1 class="mb-0">My Profile</h1>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-12 my-3">
+                                    <div class="bread d-flex justify-content-end align-items-center">
+                                        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="mb-0">
+                                            <ol class="breadcrumb ">
+                                                <li class="breadcrumb-item currentLinks"><a href="#"
+                                                        class="text-decoration-none">Content
+                                                        Management</a></li>
+                                                <li class="breadcrumb-item active" aria-current="page">Library</li>
+                                            </ol>
+                                        </nav>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-6 col-12 my-3">
+                                    <div class="profile-box py-3">
+                                        <div class="profile-image mx-auto mt-3">
+                                            <img src="asset/images/eos-icons_admin.png" alt="">
+                                        </div>
+                                        <div class="profile-name text-center py-3">
+                                            <h3 class="mb-0">Ryan Williams</h3>
+                                            <p class="mb-0">Admin</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-10 col-md-10 my-3">
+                                    <div class="profile-main-card">
+                                        <div
+                                            class="profile-details d-flex justify-content-between align-items-center py-xl-2 py-lg-2 py-2 px-xl-4 px-lg-2">
+                                            <div class="profile_container">
+                                                <h5>Profile Details</h5>
+                                            </div>
+
+                                            <div class="prof_btn">
+                                                <button class="btn">Edit Profile</button>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <div class="fullname py-xl-2 py-lg-2 py-2 px-xl-4 px-lg-2">
+                                            <span class="d-flex align-items-center gap-5">
+                                                <p class="mb-1" style="width: 95px;">Full Name</p>
+                                                <span class="mb-0 names">Ryan Williams</span>
+                                            </span>
+
+                                        </div>
+                                        <div class="fullname py-xl-2 py-lg-2 py-2 px-xl-4 px-lg-2">
+                                            <span class="d-flex align-items-center gap-5">
+                                                <p class="mb-1" style="width: 95px;">Email Address</p>
+                                                <span class="mb-0 names">ryanwilliams123@gmail.com</span>
+                                            </span>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ==============months card============== -->
+                    <section class="months_section mx-xl-4 mx-lg-1 py-lg-1">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-12 my-3">
+                                    <div class="months_card">
+                                        <div class="d-flex align-items-center gap-3">
+                                            <div class="bgColor">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                    viewBox="0 0 24 25" fill="none">
+                                                    <path
+                                                        d="M11.7769 11.2132C8.89201 10.4593 7.96427 9.67989 7.96427 8.466C7.96427 7.07322 9.24785 6.10211 11.3956 6.10211C13.6578 6.10211 14.4966 7.18822 14.5728 8.78544H17.3814C17.2925 6.58766 15.9581 4.56877 13.3019 3.91711V1.11877H9.48932V3.87877C7.02382 4.41544 5.04126 6.02544 5.04126 8.49155C5.04126 11.4432 7.46863 12.9127 11.0144 13.7688C14.1916 14.5354 14.827 15.6599 14.827 16.8482C14.827 17.7299 14.2043 19.1354 11.3956 19.1354C8.77763 19.1354 7.74822 17.9599 7.60842 16.4521H4.8125C4.965 19.2504 7.04924 20.8221 9.48932 21.346V24.1188H13.3019V21.3716C15.7801 20.8988 17.75 19.4549 17.75 16.8354C17.75 13.2066 14.6618 11.9671 11.7769 11.2132Z"
+                                                        fill="#0096D5" />
+                                                </svg>
+                                            </div>
+                                            <div class="counter">
+                                                <p class="mb-0">This Month Sales</p>
+                                                <h1 class="mb-0 fs-3">$ <span class="count">2307</span>
+                                                </h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-12 my-3">
+                                    <div class="months_card">
+                                        <div class="d-flex align-items-center gap-3">
+                                            <div class="bgColor">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                    viewBox="0 0 24 25" fill="none">
+                                                    <path
+                                                        d="M11.7769 11.2132C8.89201 10.4593 7.96427 9.67989 7.96427 8.466C7.96427 7.07322 9.24785 6.10211 11.3956 6.10211C13.6578 6.10211 14.4966 7.18822 14.5728 8.78544H17.3814C17.2925 6.58766 15.9581 4.56877 13.3019 3.91711V1.11877H9.48932V3.87877C7.02382 4.41544 5.04126 6.02544 5.04126 8.49155C5.04126 11.4432 7.46863 12.9127 11.0144 13.7688C14.1916 14.5354 14.827 15.6599 14.827 16.8482C14.827 17.7299 14.2043 19.1354 11.3956 19.1354C8.77763 19.1354 7.74822 17.9599 7.60842 16.4521H4.8125C4.965 19.2504 7.04924 20.8221 9.48932 21.346V24.1188H13.3019V21.3716C15.7801 20.8988 17.75 19.4549 17.75 16.8354C17.75 13.2066 14.6618 11.9671 11.7769 11.2132Z"
+                                                        fill="#0096D5" />
+                                                </svg>
+                                            </div>
+                                            <div class="counter">
+                                                <p class="mb-0">Last Month Sales</p>
+                                                <h1 class="mb-0 fs-3">$ <span class="count">2078</span>
+                                                </h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-12 my-3">
+                                    <div class="months_card d-flex justify-content-between">
+                                        <div class="d-flex align-items-center gap-3">
+                                            <div class="bgColor bgColor-1">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                    viewBox="0 0 24 25" fill="none">
+                                                    <path
+                                                        d="M11.7672 11.4334C8.75688 10.6467 7.7888 9.83336 7.7888 8.56669C7.7888 7.11336 9.12819 6.10002 11.3694 6.10002C13.7299 6.10002 14.6051 7.23336 14.6847 8.90002H17.6154C17.5226 6.60669 16.1302 4.50002 13.3585 3.82002V0.900024H9.38016V3.78002C6.80747 4.34002 4.7387 6.02003 4.7387 8.59336C4.7387 11.6734 7.27161 13.2067 10.9715 14.1C14.2868 14.9 14.9499 16.0734 14.9499 17.3134C14.9499 18.2334 14.3001 19.7 11.3694 19.7C8.63752 19.7 7.56336 18.4734 7.41749 16.9H4.5C4.65914 19.82 6.83399 21.46 9.38016 22.0067V24.9H13.3585V22.0334C15.9445 21.54 18 20.0334 18 17.3C18 13.5134 14.7775 12.22 11.7672 11.4334Z"
+                                                        fill="#22C55E" />
+                                                </svg>
+                                            </div>
+                                            <div class="counter">
+                                                <p class="mb-0">Total Sales</p>
+                                                <h1 class="mb-0 fs-3">$ <span class="count">1078</span>
+                                                </h1>
+                                            </div>
+                                        </div>
+                                        <div class="analytics_box d-flex align-items-center">
+                                            <span class=""><svg xmlns="http://www.w3.org/2000/svg" width="21"
+                                                    height="22" viewBox="0 0 21 22" fill="none">
+                                                    <g clip-path="url(#clip0_212_30160)">
+                                                        <path
+                                                            d="M14.8584 6.33069H17.9961L11.8027 12.524L8.0498 8.77112C7.87207 8.60706 7.66357 8.52502 7.42432 8.52502C7.18506 8.52502 6.9834 8.60706 6.81934 8.77112L0.256836 15.3336C0.0791016 15.5114 -0.00976562 15.7198 -0.00976562 15.9591C-0.00976562 16.1984 0.0791016 16.4 0.256836 16.5641C0.420898 16.7418 0.622559 16.8307 0.861816 16.8307C1.10107 16.8307 1.30957 16.7418 1.4873 16.5641L7.43457 10.6373L11.1875 14.3903C11.3516 14.5543 11.5566 14.6364 11.8027 14.6364C12.0488 14.6364 12.2539 14.5543 12.418 14.3903L19.2471 7.56116V10.6989C19.2471 10.9449 19.3325 11.1534 19.5034 11.3243C19.6743 11.4952 19.876 11.5807 20.1084 11.5807C20.3545 11.5807 20.563 11.4952 20.7339 11.3243C20.9048 11.1534 20.9902 10.9449 20.9902 10.6989V5.44885C20.9902 5.39417 20.9834 5.33948 20.9697 5.28479C20.9561 5.2301 20.9424 5.17542 20.9287 5.12073C20.9014 5.06604 20.874 5.01477 20.8467 4.96692C20.8193 4.91907 20.7852 4.87463 20.7441 4.83362C20.7441 4.83362 20.7407 4.83362 20.7339 4.83362C20.7271 4.83362 20.7236 4.83362 20.7236 4.83362C20.6963 4.7926 20.6587 4.75842 20.6108 4.73108C20.563 4.70374 20.5117 4.67639 20.457 4.64905C20.4023 4.6217 20.3477 4.60461 20.293 4.59778C20.2383 4.59094 20.1768 4.58752 20.1084 4.58752H14.8584C14.626 4.58752 14.4243 4.67297 14.2534 4.84387C14.0825 5.01477 13.9971 5.21643 13.9971 5.44885C13.9971 5.69495 14.0825 5.90344 14.2534 6.07434C14.4243 6.24524 14.626 6.33069 14.8584 6.33069Z"
+                                                            fill="#22C55E" />
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip0_212_30160">
+                                                            <rect width="21" height="21" fill="white"
+                                                                transform="translate(-0.00976562 0.650024)" />
+                                                        </clipPath>
+                                                    </defs>
+                                                </svg></span>
+
+                                            <p class="mb-0 ps-2">1.56%</p>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-12 my-3">
+                                    <div class="months_card">
+                                        <div class="d-flex align-items-center gap-3">
+                                            <div class="bgColor bgColor-">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                    viewBox="0 0 24 25" fill="none">
+                                                    <path
+                                                        d="M11.7672 11.4334C8.75688 10.6467 7.7888 9.83336 7.7888 8.56669C7.7888 7.11336 9.12819 6.10002 11.3694 6.10002C13.7299 6.10002 14.6051 7.23336 14.6847 8.90002H17.6154C17.5226 6.60669 16.1302 4.50002 13.3585 3.82002V0.900024H9.38016V3.78002C6.80747 4.34002 4.7387 6.02003 4.7387 8.59336C4.7387 11.6734 7.27161 13.2067 10.9715 14.1C14.2868 14.9 14.9499 16.0734 14.9499 17.3134C14.9499 18.2334 14.3001 19.7 11.3694 19.7C8.63752 19.7 7.56336 18.4734 7.41749 16.9H4.5C4.65914 19.82 6.83399 21.46 9.38016 22.0067V24.9H13.3585V22.0334C15.9445 21.54 18 20.0334 18 17.3C18 13.5134 14.7775 12.22 11.7672 11.4334Z"
+                                                        fill="#22C55E" />
+                                                </svg>
+                                            </div>
+                                            <div class="counter">
+                                                <p class="mb-0">Sales Growth Analytics</p>
+                                                <h4 class="mb-0">Sales Increase by <span>15%</span>
+                                                    </h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- =============service card============== -->
+                    <section class="service_section mx-xl-4 mx-lg-1 py-lg-1">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-4 col-12 my-3">
+                                    <div class="service_card card-1">
+                                        <div class="service_image text-center w-100">
+                                            <img src="asset/images/logo 6.png" alt="" class="w-25 object-fit-cover">
+                                        </div>
+                                        <h2 class="text-center py-4">Windriver Tool Subscribers</h2>
+                                        <div class="counter box text-center">
+                                            <buttton class="mb-0 btn fs-3 text-white text-center"><span
+                                                    class="count">22789</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-12 my-3">
+                                    <div class="service_card card-2 bg-white">
+                                        <div class="service_image text-center w-100">
+                                            <img src="asset/images/logo 4.png" alt="" class="w-25 object-fit-cover">
+                                        </div>
+                                        <h2 class="text-center py-4 text-dark">Windriver Tool Subscribers</h2>
+                                        <div class="counter box text-center">
+                                            <buttton class="mb-0 btn fs-3 text-dark text-center"><span
+                                                    class="count">28789</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-12 my-3">
+                                    <div class="service_card card-3">
+                                        <div class="service_image text-center w-100">
+                                            <img src="asset/images/logo 5.png" alt="" class="w-25 object-fit-cover">
+                                        </div>
+                                        <h2 class="text-center py-4">Windriver Tool Subscribers</h2>
+                                        <div class="counter box text-center">
+                                            <buttton class="mb-0 btn fs-3 text-white text-center"><span
+                                                    class="count">25789</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- ============== -->
+
+                    <!-- ===============inner container End section============== -->
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/iconify/2.0.0/iconify.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="/path/to/cdn/jquery.min.js"></script>
+
+<script src="asset/js/main.js"></script>
+
+</html>

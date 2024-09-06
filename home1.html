@@ -1,0 +1,2038 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dashboard</title>
+    <link rel="shortcut icon" href="asset/images/about-1.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="asset/css/style.css">
+</head>
+
+<body>
+    <!-- ==========asside section============ -->
+    <section class="main_container overflow-hidden">
+        <div class="container-fluid p-lg-0">
+            <div class="row">
+                <div class="sideWidth" id="hideNavbar">
+                    <div class="side-nav">
+                        <div class="left-side" style="height: 100vh;">
+                            <div
+                                class="side_nav_section d-flex justify-content-between align-items-center gap-3 px-3 py-3">
+                                <div class="brand-logo">
+                                    <a href="index.html"><img src="asset/images/logo.png" alt=""></a>
+                                </div>
+                                <div class="toggle">
+                                    <img src="asset/images/toggle-icon.png" alt="">
+                                </div>
+                            </div>
+                            <!-- ==========start side nav section======== -->
+                            <div class="navTab">
+                                <ul class="list-unstyled p-lg-3">
+                                    <li class="content">
+                                        <h6>Dashboard</h6>
+                                    </li>
+                                    <li class=" navlinks">
+                                        <a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                            href="home.html"><span class="iconify"
+                                                data-icon="akar-icons:dashboard"></span>
+                                            Home</a>
+                                    </li>
+                                    <li class=" navlinks">
+                                        <a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                            href="analytics.html"><span class="iconify"
+                                                data-icon="ion:analytics"></span>
+                                            Analytics</a>
+                                    </li>
+                                    <li class="opentoggle  navlinks">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <a class="text-decoration-none d-inline-flex gap-2 align-items-center mb-0"
+                                                href="javscript:void(0);">
+                                                <span class="iconify" data-icon="tdesign:user"></span>
+                                                User
+                                            </a>
+                                            <span class="iconify toggleIcon fs-4 mb-0 text-dark"
+                                                data-icon="tabler:chevron-down"></span>
+                                        </div>
+                                        <ul class="list-unstyled innerTab" id="innerTab">
+                                            <li><a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                                    href=""><span class="iconify "
+                                                        data-icon="teenyicons:user-outline"></span> All Users</a></li>
+                                            <li><a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                                    href="">
+                                                    <span class="iconify" data-icon="ri:user-add-line"></span>
+                                                    Subscribers</a></li>
+                                            <li>
+                                                <a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                                    href="">
+                                                    <span class="iconify" data-icon="tabler:user-x"></span> Non
+                                                    Subscribers</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="content">
+                                        <h6>Content Management</h6>
+                                    </li>
+                                    <li class=" navlinks">
+                                        <a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                            href="home1.html"><span class="iconify" data-icon="ph:globe-light"></span>
+                                            Home</a>
+                                    </li>
+                                    <li class=" navlinks">
+                                        <a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                            href="about.html"><span class="iconify" data-icon="ph:globe-light"></span>
+                                            About</a>
+                                    </li>
+                                    <li class="openProduct navlinks">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                                href="javscript:void(0);">
+                                                <span class="iconify" data-icon="tdesign:user"></span>
+                                                Products
+                                            </a>
+                                            <span class="iconify productIcon fs-4 text-dark"
+                                                data-icon="tabler:chevron-down"></span>
+                                        </div>
+                                        <ul class="list-unstyled productSlide" id="innerTab">
+                                            <li><a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                                    href="winder.html"><span class="iconify "
+                                                        data-icon="ph:globe-light"></span>Windriver Tool</a>
+                                            </li>
+                                            <li><a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                                    href="windspeed.html">
+                                                    <span class="iconify" data-icon="ph:globe-light"></span>
+                                                    Winspeed Pro</a></li>
+                                            <li>
+                                                <a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                                    href="zone.html">
+                                                    <span class="iconify" data-icon="ph:globe-light"></span>
+                                                    zone Firewall</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class=" navlinks">
+                                        <a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                            href="pricing.html"><span class="iconify" data-icon="ph:globe-light"></span>
+                                            Pricing</a>
+                                    </li>
+                                    <li class=" navlinks">
+                                        <a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                            href="contact.html"><span class="iconify" data-icon="ph:globe-light"></span>
+                                            Contact Us</a>
+                                    </li>
+                                    <li class=" navlinks">
+                                        <a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                            href="faqs.html"><span class="iconify" data-icon="ph:globe-light"></span>
+                                            FAQs</a>
+                                    </li>
+                                    <li class="content">
+                                        <h6>Account & Settings</h6>
+                                    </li>
+                                    <li class=" navlinks">
+                                        <a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                            href="index.html"><span class="iconify"
+                                                data-icon="iconamoon:profile-light"></span>
+                                            My Profile</a>
+                                    </li>
+                                    <li class=" navlinks">
+                                        <a class="text-decoration-none d-inline-flex gap-2 align-items-center"
+                                            href=""><span class="iconify" data-icon="icon-park-outline:setting"></span>
+                                            Settings</a>
+                                    </li>
+                                    <a class="text-decoration-none btn d-inline-flex gap-2 align-items-center"
+                                        href="logout.html"><span class="iconify fs-4"
+                                            data-icon="fluent:arrow-exit-20-filled"></span>
+                                        Logout</a>
+
+                                </ul>
+                            </div>
+                            <!-- ==========End side nav section======== -->
+                        </div>
+                    </div>
+                </div>
+                <!-- =================== -->
+                <div class="mainContainer">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#"> <img src="asset/images/toggle-icon.png" alt=""></a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <div class="d-flex justify-content-between align-items-center w-100">
+                                    <form action="" method="get" class="search-form">
+                                        <div class="form-group">
+                                            <input type="text" placeholder="Search here...."
+                                                class="form-control shadow-none" id="" required>
+                                            <span class="iconify" data-icon="bi:search"></span>
+                                        </div>
+                                    </form>
+                                    <div
+                                        class="notification-details d-flex justify-content-center align-items-center gap-3">
+                                        <div class="notify_ring position-relative">
+                                            <span class="iconify" data-icon="bi:bell"></span>
+                                            <small class="number">1</small>
+                                        </div>
+                                        <div class="prev_user">
+                                            <img src="asset/images/prev_user.png" alt="">
+                                        </div>
+                                        <div class="user_details">
+                                            <h6 class="mb-0">Ryan Williams</h6>
+                                            <p class="mb-0">Admin</p>
+                                        </div>
+                                        <div class="user_setting">
+                                            <span class="iconify ps-1" data-icon="lets-icons:setting-line"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+
+                    <!-- ====================home section start=========== -->
+                    <div class="home_section mx-xl-4 mx-lg-1 py-lg-1">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6 col-md-6 col-12 my-3">
+                                    <div class="cms-card">
+                                        <h1 class="mb-0">CMS : Home</h1>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-12 my-3">
+                                    <div class="bread d-flex justify-content-end align-items-center">
+                                        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="mb-0">
+                                            <ol class="breadcrumb ">
+                                                <li class="breadcrumb-item currentLinks"><a href="#"
+                                                        class="text-decoration-none">Content
+                                                        Management</a></li>
+                                                <li class="breadcrumb-item active" aria-current="page">Home</li>
+                                            </ol>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ==========All in One Section============ -->
+                    <section class="all-in-one bgCommon mx-xl-4 mx-lg-1 py-lg-4 my-3">
+                        <div class="container-fluid px-lg-0">
+                            <div class="protection py-3 px-lg">
+                                <h3>Section : All-In-One Ultimate Protection For Your Privacy</h3>
+                            </div>
+                            <hr>
+                            <form action="" method="get">
+                                <div class="row px-lg pt-3">
+                                    <div class="col-lg-6">
+                                        <h3 class="ps-1">Images</h3>
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-3 col-12 my-3  m-lg-0">
+                                                <div class="image-box">
+                                                    <div class="image_container position-relative">
+                                                        <img class="img-preview" src="asset/images/home1/banner-1.png"
+                                                            alt="" class="w-100 img-fluid object-fit-cover">
+                                                        <div class="updatebtn">
+                                                            <label class="upload">
+                                                                <input class="file-input" type="file" />
+                                                                <span
+                                                                    class="btn shadow-none d-inline-flex align-items-center gap-1">
+                                                                    <img src="asset/images/home1/material-symbols_edit.png"
+                                                                        alt="">Img 1
+                                                                </span>
+                                                            </label>
+                                                            <div class="toast bg-transparent"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <!-- Add more similar blocks for additional file inputs and image previews if needed -->
+                                            <div class="col-lg-6 col-md-3 col-12 my-3 p-lg-0 m-lg-0">
+                                                <div class="small-box">
+                                                    <div class="image-box pb-4">
+                                                        <div class="image_container position-relative">
+                                                            <img class="img-preview"
+                                                                src="asset/images/home1/banner-2.png" alt=""
+                                                                class="w-100 img-fluid object-fit-cover">
+                                                            <div class="updatebtn">
+                                                                <label class="upload">
+                                                                    <input class="file-input" type="file" />
+                                                                    <span
+                                                                        class="btn shadow-none d-inline-flex align-items-center gap-1">
+                                                                        <img src="asset/images/home1/material-symbols_edit.png"
+                                                                            alt="">Img 2
+                                                                    </span>
+                                                                </label>
+                                                                <div class="toast bg-transparent"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="image-box">
+                                                        <div class="image_container position-relative">
+                                                            <img class="img-preview"
+                                                                src="asset/images/home1/banner-2.png" alt=""
+                                                                class="w-100 img-fluid object-fit-cover">
+                                                            <div class="updatebtn">
+                                                                <label class="upload">
+                                                                    <input class="file-input" type="file" />
+                                                                    <span
+                                                                        class="btn shadow-none d-inline-flex align-items-center gap-1">
+                                                                        <img src="asset/images/home1/material-symbols_edit.png"
+                                                                            alt="">Img 3
+                                                                    </span>
+                                                                </label>
+                                                                <div class="toast bg-transparent"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                            <div class="notification pt-2">
+                                                <p class="mb-0"><span>Note</span> : Upload image size for &nbsp;<span>
+                                                        image 1
+                                                    </span>- (607*440) px &nbsp; <span class="line">|</span> <span>
+                                                        image
+                                                        2</span> - (193*102)px
+                                                    <span class="line">|</span>
+                                                    <span>image
+                                                        3</span> - (350*145)px
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-12 my-3">
+                                        <div class="banner-details px-3">
+                                            <div class="mb-4">
+                                                <label for="" class="form-label ps-1">Heading</label>
+                                                <input type="text" name="" id="" class="form-control shadow-none"
+                                                    placeholder=""
+                                                    value="All-In-One Ultimate Protection For Your Privacy" />
+                                            </div>
+                                            <div class="mb-4">
+                                                <label for="" class="form-label ps-1">Description</label>
+                                                <textarea name="" id="" value="" placeholder=""
+                                                    class="form-control shadow-none"
+                                                    rows="5">Next-level confidence for identity, privacy, and device protection </textarea>
+                                            </div>
+                                            <div class="mb-4 pt-2 ">
+                                                <div class="row">
+                                                    <div class="col-lg-3 col-md-3 col-12">
+                                                        <div class="btn_text">
+                                                            <label for="" class="pb-2">Button 1 Text</label>
+                                                            <button class="btn">View Products</button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-3 col-12">
+                                                        <div class="btn_url">
+                                                            <label for="" class="pb-2">Button 1 URL</label>
+                                                            <input type="text" value="https://www.example.com"
+                                                                placeholder="" class="form-control shadow-none">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-3 col-12">
+                                                        <div class="btn_text">
+                                                            <label for="" class="pb-2">Button 1 Text</label>
+                                                            <button class="btn">View Products</button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-3 col-12">
+                                                        <div class="btn_text">
+                                                            <label for="" class="pb-2">Button 1 URL</label>
+                                                            <input type="text" value="https://www.example.com"
+                                                                placeholder="" class="form-control shadow-none">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- ==========update button========= -->
+                                    <div class="update pt-3 pb-2">
+                                        <button type="submit" class="btn">Update</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </section>
+                    <!-- ==========why choose us============ -->
+                    <section class="why-choose-us bgCommon mx-xl-4 mx-lg-1 py-lg-4 my-4">
+                        <div class="container-fluid px-lg-0">
+                            <div class="protection py-3 px-lg">
+                                <h3>Section : Why Choose Us?</h3>
+                            </div>
+                            <hr>
+                            <form action="" method="get" class="pt-3">
+                                <div class="row px-lg">
+                                    <div class="col-lg-3">
+                                        <div class="mb-3">
+                                            <label for="" class="form-label">Super Heading</label>
+                                            <input type="text" name="" id="" class="form-control my-2 shadow-none"
+                                                value="Why Choose Us?" placeholder="" />
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="mb-3">
+                                            <label for="" class="form-label">Heading</label>
+                                            <input type="text" name="" id="" class="form-control my-2 shadow-none"
+                                                value="The Ultimate Protection For Your Privacy" placeholder="" />
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="mb-3">
+                                            <label for="" class="form-label">Button Text</label>
+                                            <input type="button" name="" id=""
+                                                class="form-control my-2 shadow-none text-start" value="Know More"
+                                                placeholder="" />
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="mb-3">
+                                            <label for="" class="form-label">Button URL</label>
+                                            <input type="text" name="" id="" class="form-control my-2 shadow-none"
+                                                value="https://www.example.com" placeholder="" />
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 py-3">
+                                        <div class="mb-3">
+                                            <label for="" class="form-label">Description</label>
+                                            <textarea type="text" name="" id="" rows="5"
+                                                class="form-control my-2 shadow-none"
+                                                value="https://www.example.com">Our suite of tools is meticulously crafted to cater to every aspect of PC optimization, from boosting performance to fortifying security and simplifying maintenance. Join thousands of satisfied users who trust us to deliver seamless and effective solutions for their computing needs.</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="update pt-3 pb-2">
+                                        <button type="submit" class="btn">Update</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </section>
+                    <!-- ==========why choose us============ -->
+                    <section class="why-choose-us bgCommon mx-xl-4 mx-lg-1 py-lg-4 my-4">
+                        <div class="container-fluid px-lg-0">
+                            <div class="protection py-3 px-lg">
+                                <h3>Section : Why Choose Us? - Icons</h3>
+                            </div>
+                            <hr>
+                            <form action="" method="get" class="pt-3">
+                                <div class="row px-lg">
+                                    <div class="col-lg-4">
+                                        <div>
+                                            <div class="mb-3 bgInner image-box ">
+                                                <label for="" class="form-label py-1">Icon</label>
+                                                <div class="icon_box position-relative text-center">
+                                                    <img src="https://thepreview.pro/advance_driver/assets/images/Frame.png"
+                                                        alt="" class="img-preview">
+                                                    <div class="updatebtn">
+                                                        <label class="upload">
+                                                            <input class="file-input" type="file" />
+                                                            <span
+                                                                class="btn shadow-none bg-transparent d-inline-flex align-items-center justify-content-center p-0  gap-1">
+                                                                <img src="asset/images/home1/material-symbols_edit.png"
+                                                                    alt="">icon 1
+                                                            </span>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="notification pt-2 pb-3">
+                                                    <p class="mb-0"><span>Note</span> : Upload image size&nbsp;<span>
+                                                            image 1
+                                                        </span>- (60*60)px &nbsp; <span class="line">|</span> Only PNG
+                                                        Format
+
+                                                    </p>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="" class="form-label">Heading</label>
+                                                    <input type="text" name="" id="" class="form-control shadow-none"
+                                                        placeholder="" value="Streamlined Performance" />
+
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="" class="form-label">Description</label>
+                                                    <textarea type="text" name="" rows="4" id=""
+                                                        class="form-control shadow-none" placeholder=""
+                                                        value="Streamlined Performance">Optimize your PC's speed and responsiveness with our cutting-edge performance enhancement tools.</textarea>
+
+                                                </div>
+
+                                            </div>
+                                            <div class="update pt-2 pb-2">
+                                                <button type="submit" class="btn">Update</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div>
+                                            <div class="mb-3 bgInner image-box">
+                                                <label for="" class="form-label py-1">Icon</label>
+                                                <div class="icon_box position-relative text-center">
+                                                    <img src="https://thepreview.pro/advance_driver/assets/images/Frame%20(1).png"
+                                                        alt="" class="img-preview">
+                                                    <div class="updatebtn">
+                                                        <label class="upload">
+                                                            <input class="file-input" type="file" />
+                                                            <span
+                                                                class="btn shadow-none bg-transparent d-inline-flex align-items-center justify-content-center p-0  gap-1">
+                                                                <img src="asset/images/home1/material-symbols_edit.png"
+                                                                    alt="">icon 2
+                                                            </span>
+                                                        </label>
+
+                                                    </div>
+                                                </div>
+                                                <div class="notification pt-2 pb-3">
+                                                    <p class="mb-0"><span>Note</span> : Upload image size&nbsp;<span>
+                                                            image 1
+                                                        </span>- (60*60)px &nbsp; <span class="line">|</span> Only PNG
+                                                        Format
+
+                                                    </p>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="" class="form-label">Heading</label>
+                                                    <input type="text" name="" id="" class="form-control shadow-none"
+                                                        placeholder="" value="Streamlined Performance" />
+
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="" class="form-label">Description</label>
+                                                    <textarea type="text" name="" rows="4" id=""
+                                                        class="form-control shadow-none" placeholder=""
+                                                        value="Streamlined Performance">Optimize your PC's speed and responsiveness with our cutting-edge performance enhancement tools.</textarea>
+
+                                                </div>
+
+                                            </div>
+                                            <div class="update pt-3 pb-2">
+                                                <button type="submit" class="btn">Update</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div>
+                                            <div class="mb-3 bgInner image-box">
+                                                <label for="" class="form-label py-1">Icon</label>
+                                                <div class="icon_box position-relative text-center ">
+                                                    <img src="https://thepreview.pro/advance_driver/assets/images/Frame%20(2).png"
+                                                        alt="" class="img-preview">
+                                                    <div class="updatebtn">
+                                                        <label class="upload">
+                                                            <input class="file-input" type="file" />
+                                                            <span
+                                                                class="btn shadow-none bg-transparent d-inline-flex align-items-center justify-content-center p-0  gap-1">
+                                                                <img src="asset/images/home1/material-symbols_edit.png"
+                                                                    alt="">icon 3
+                                                            </span>
+                                                        </label>
+
+                                                    </div>
+                                                </div>
+                                                <div class="notification pt-2 pb-3">
+                                                    <p class="mb-0"><span>Note</span> : Upload image size&nbsp;<span>
+                                                            image 1
+                                                        </span>- (60*60)px &nbsp; <span class="line">|</span> Only PNG
+                                                        Format
+
+                                                    </p>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="" class="form-label">Heading</label>
+                                                    <input type="text" name="" id="" class="form-control shadow-none"
+                                                        placeholder="" value="Streamlined Performance" />
+
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="" class="form-label">Description</label>
+                                                    <textarea type="text" name="" rows="4" id=""
+                                                        class="form-control shadow-none" placeholder=""
+                                                        value="Streamlined Performance"> Simplify system upkeep and ensure smooth operation with our automated maintenance solutions.</textarea>
+
+                                                </div>
+
+                                            </div>
+                                            <div class="update pt-3 pb-2">
+                                                <button type="submit" class="btn">Update</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </form>
+                        </div>
+                    </section>
+                    <!-- ===========Product section 1============ -->
+                    <section class="products bgCommon product-1 mx-xl-4 mx-lg-1 py-lg-4 my-4">
+                        <div class="container-fluid px-lg-0">
+                            <div class="protection py-3 px-lg">
+                                <h3>Section : Product 1</h3>
+                            </div>
+                            <hr>
+                            <form action="" method="get">
+                                <div class="row px-lg">
+                                    <div class="col-lg-5">
+                                        <div class="product_box_1 image-box">
+                                            <label for="" class="py-2">Image</label>
+                                            <div class="product_inner_box text-center position-relative">
+                                                <img src="https://thepreview.pro/advance_driver/assets/images/logo%202.png"
+                                                    alt="" class="pt-2 pb-3">
+                                                <img src="https://thepreview.pro/advance_driver/assets/images/feature-banner%202.png"
+                                                    alt="" class="w-100 img-fluid img-preview">
+                                                <div class="updatebtn">
+                                                    <label class="upload">
+                                                        <input class="file-input" type="file" />
+                                                        <span
+                                                            class="btn shadow-none bg-transparent d-inline-flex align-items-center justify-content-center gap-1">
+                                                            <img src="asset/images/home1/material-symbols_edit.png"
+                                                                alt="">icon 3
+                                                        </span>
+                                                    </label>
+
+                                                </div>
+                                            </div>
+                                            <div class="notification pt-2 pb-3">
+                                                <p class="mb-0"><span>Note</span> : Upload image size&nbsp;<span>
+                                                        image 1
+                                                    </span>- (584*407)px &nbsp; <span class="line">|</span> Only PNG
+                                                    Format
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-7 py-2">
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="mb-3">
+                                                    <label for="" class="form-label">Super Heading</label>
+                                                    <input type="text" name="" id="" class="form-control" placeholder=""
+                                                        value="Product 1" />
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="mb-3">
+                                                    <label for="" class="form-label">Heading</label>
+                                                    <input type="text" name="" id="" class="form-control" placeholder=""
+                                                        value="Windriver Tool" />
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12 py-4">
+                                                <div class="">
+                                                    <label for="" class="form-label">Description</label>
+                                                    <textarea type="text" name="" id="" rows="5" class="form-control"
+                                                        placeholder=""> Windriver Tool ensures that your system stays up-to-date with the latest drivers, ensuring optimal performance and compatibility with your hardware. Forget the hassle of manually updating drivers; let Windriver Tool automate the process for you, so you can focus on what matters most - uninterrupted productivity.
+                                                        Compatibility  • Automation  • Updates</textarea>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-3 col-md-3 col-12">
+                                                <div class="btn_text">
+                                                    <label for="" class="pb-2">Button 1 Text</label>
+                                                    <button class="btn">View Products</button>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-3 col-12">
+                                                <div class="btn_url">
+                                                    <label for="" class="pb-2">Button 1 URL</label>
+                                                    <input type="text" value="https://www.example.com" placeholder=""
+                                                        class="form-control shadow-none">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-3 col-12">
+                                                <div class="btn_text">
+                                                    <label for="" class="pb-2">Button 1 Text</label>
+                                                    <button class="btn">View Products</button>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-3 col-12">
+                                                <div class="btn_text">
+                                                    <label for="" class="pb-2">Button 1 URL</label>
+                                                    <input type="text" value="https://www.example.com" placeholder=""
+                                                        class="form-control shadow-none">
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="update pt-3 pb-2">
+                                        <button type="submit" class="btn">Update</button>
+                                    </div>
+                            </form>
+
+                        </div>
+                    </section>
+                    <!-- ===========Product section 2============ -->
+                    <section class="products bgCommon product-2 mx-xl-4 mx-lg-1 py-lg-4 my-4">
+                        <div class="container-fluid px-lg-0">
+                            <div class="protection py-3 px-lg">
+                                <h3>Section : Product 2</h3>
+                            </div>
+                            <hr>
+                            <form action="" method="get">
+                                <div class="row px-lg">
+                                    <div class="col-lg-5">
+                                        <div class="product_box_1 image-box">
+                                            <label for="" class="py-2">Image</label>
+                                            <div class="product_inner_box text-center position-relative">
+                                                <img src="https://thepreview.pro/advance_driver/assets/images/logo%203.png"
+                                                    alt="" class="pt-2 pb-3">
+                                                <img src="https://thepreview.pro/advance_driver/assets/images/image%201.png"
+                                                    alt="" class="w-100 img-fluid img-preview">
+                                                <div class="updatebtn">
+                                                    <label class="upload">
+                                                        <input class="file-input" type="file" />
+                                                        <span
+                                                            class="btn shadow-none bg-transparent d-inline-flex align-items-center justify-content-center gap-1">
+                                                            <img src="asset/images/home1/material-symbols_edit.png"
+                                                                alt="">icon 3
+                                                        </span>
+                                                    </label>
+
+                                                </div>
+                                            </div>
+                                            <div class="notification pt-2 pb-3">
+                                                <p class="mb-0"><span>Note</span> : Upload image size&nbsp;<span>
+                                                        image 1
+                                                    </span>- (584*407)px &nbsp; <span class="line">|</span> Only PNG
+                                                    Format
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-7 py-2">
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="mb-3">
+                                                    <label for="" class="form-label">Super Heading</label>
+                                                    <input type="text" name="" id="" class="form-control" placeholder=""
+                                                        value="Product 2" />
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="mb-3">
+                                                    <label for="" class="form-label">Heading</label>
+                                                    <input type="text" name="" id="" class="form-control" placeholder=""
+                                                        value="Windriver Tool" />
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12 py-4">
+                                                <div class="">
+                                                    <label for="" class="form-label">Description</label>
+                                                    <textarea type="text" name="" id="" rows="5" class="form-control"
+                                                        placeholder=""> Windriver Tool ensures that your system stays up-to-date with the latest drivers, ensuring optimal performance and compatibility with your hardware. Forget the hassle of manually updating drivers; let Windriver Tool automate the process for you, so you can focus on what matters most - uninterrupted productivity.
+                                                        Compatibility  • Automation  • Updates</textarea>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-3 col-md-3 col-12">
+                                                <div class="btn_text">
+                                                    <label for="" class="pb-2">Button 1 Text</label>
+                                                    <button class="btn">View Products</button>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-3 col-12">
+                                                <div class="btn_url">
+                                                    <label for="" class="pb-2">Button 1 URL</label>
+                                                    <input type="text" value="https://www.example.com" placeholder=""
+                                                        class="form-control shadow-none">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-3 col-12">
+                                                <div class="btn_text">
+                                                    <label for="" class="pb-2">Button 1 Text</label>
+                                                    <button class="btn">View Products</button>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-3 col-12">
+                                                <div class="btn_text">
+                                                    <label for="" class="pb-2">Button 1 URL</label>
+                                                    <input type="text" value="https://www.example.com" placeholder=""
+                                                        class="form-control shadow-none">
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="update pt-3 pb-2">
+                                        <button type="submit" class="btn">Update</button>
+                                    </div>
+                            </form>
+
+                        </div>
+                    </section>
+                    <!-- ===========Product section 3============ -->
+                    <section class="products bgCommon product-3 mx-xl-4 mx-lg-1 py-lg-4 my-4">
+                        <div class="container-fluid px-lg-0">
+                            <div class="protection py-3 px-lg">
+                                <h3>Section : Product 3</h3>
+                            </div>
+                            <hr>
+                            <form action="" method="get">
+                                <div class="row px-lg">
+                                    <div class="col-lg-5">
+                                        <div class="product_box_1 image-box">
+                                            <label for="" class="py-2">Image</label>
+                                            <div class="product_inner_box text-center position-relative">
+                                                <img src="https://thepreview.pro/advance_driver/assets/images/logo%204.png"
+                                                    alt="" class="pt-2 pb-3">
+                                                <img src="https://thepreview.pro/advance_driver/assets/images/Image.png"
+                                                    alt="" class="w-100 img-fluid img-preview">
+                                                <div class="updatebtn">
+                                                    <label class="upload">
+                                                        <input class="file-input" type="file" />
+                                                        <span
+                                                            class="btn shadow-none bg-transparent d-inline-flex align-items-center justify-content-center gap-1">
+                                                            <img src="asset/images/home1/material-symbols_edit.png"
+                                                                alt="">icon 3
+                                                        </span>
+                                                    </label>
+
+                                                </div>
+                                            </div>
+                                            <div class="notification pt-2 pb-3">
+                                                <p class="mb-0"><span>Note</span> : Upload image size&nbsp;<span>
+                                                        image 1
+                                                    </span>- (584*407)px &nbsp; <span class="line">|</span> Only PNG
+                                                    Format
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-7 py-2">
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="mb-3">
+                                                    <label for="" class="form-label">Super Heading</label>
+                                                    <input type="text" name="" id="" class="form-control" placeholder=""
+                                                        value="Product 3" />
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="mb-3">
+                                                    <label for="" class="form-label">Heading</label>
+                                                    <input type="text" name="" id="" class="form-control" placeholder=""
+                                                        value="Windriver Tool" />
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12 py-4">
+                                                <div class="">
+                                                    <label for="" class="form-label">Description</label>
+                                                    <textarea type="text" name="" id="" rows="5" class="form-control"
+                                                        placeholder=""> Windriver Tool ensures that your system stays up-to-date with the latest drivers, ensuring optimal performance and compatibility with your hardware. Forget the hassle of manually updating drivers; let Windriver Tool automate the process for you, so you can focus on what matters most - uninterrupted productivity.
+                                                        Compatibility  • Automation  • Updates</textarea>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-3 col-md-3 col-12">
+                                                <div class="btn_text">
+                                                    <label for="" class="pb-2">Button 1 Text</label>
+                                                    <button class="btn">View Products</button>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-3 col-12">
+                                                <div class="btn_url">
+                                                    <label for="" class="pb-2">Button 1 URL</label>
+                                                    <input type="text" value="https://www.example.com" placeholder=""
+                                                        class="form-control shadow-none">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-3 col-12">
+                                                <div class="btn_text">
+                                                    <label for="" class="pb-2">Button 1 Text</label>
+                                                    <button class="btn">View Products</button>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-3 col-12">
+                                                <div class="btn_text">
+                                                    <label for="" class="pb-2">Button 1 URL</label>
+                                                    <input type="text" value="https://www.example.com" placeholder=""
+                                                        class="form-control shadow-none">
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="update pt-3 pb-2">
+                                        <button type="submit" class="btn">Update</button>
+                                    </div>
+                            </form>
+
+                        </div>
+                    </section>
+
+                    <!-- ==========why choose us============ -->
+                    <section class="why-choose-us bgCommon mx-xl-4 mx-lg-1 py-lg-4 my-4">
+                        <div class="container-fluid px-lg-0">
+                            <div class="protection py-3 px-lg">
+                                <h3>Section : Unlock the Benefits</h3>
+                            </div>
+                            <hr>
+                            <form action="" method="get" class="pt-3">
+                                <div class="row px-lg">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="" class="form-label">Super Heading</label>
+                                            <input type="text" name="" id="" class="form-control my-2 shadow-none"
+                                                value="Why Choose Us?" placeholder="" />
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="" class="form-label">Heading</label>
+                                            <input type="text" name="" id="" class="form-control my-2 shadow-none"
+                                                value="The Ultimate Protection For Your Privacy" placeholder="" />
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 py-3">
+                                        <div class="mb-3">
+                                            <label for="" class="form-label">Description</label>
+                                            <textarea type="text" name="" id="" rows="5"
+                                                class="form-control my-2 shadow-none"
+                                                value="https://www.example.com">Our suite of tools is meticulously crafted to cater to every aspect of PC optimization, from boosting performance to fortifying security and simplifying maintenance. Join thousands of satisfied users who trust us to deliver seamless and effective solutions for their computing needs.</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="update pt-3 pb-2">
+                                        <button type="submit" class="btn">Update</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </section>
+                    <!-- ========================== -->
+                    <section class="why-choose-us bgCommon mx-xl-4 mx-lg-1 py-lg-4 my-4">
+                        <div class="container-fluid px-lg-0">
+                            <div class="protection py-3 px-lg">
+                                <h3>Section : Unlock the Benefits - Cards</h3>
+                            </div>
+                            <hr>
+                            <form action="" method="get" class="pt-3">
+                                <div class="row px-lg">
+                                    <div class="col-lg-4">
+                                        <div>
+                                            <div class="mb-3 bgInner image-box ">
+                                                <label for="" class="form-label py-1">Icon</label>
+                                                <div class="icon_box position-relative text-center">
+                                                    <img src="https://thepreview.pro/advance_driver/assets/images/Frame%20(3).png"
+                                                        alt="" class="img-preview">
+                                                    <div class="updatebtn">
+                                                        <label class="upload">
+                                                            <input class="file-input" type="file" />
+                                                            <span
+                                                                class="btn shadow-none bg-transparent d-inline-flex align-items-center justify-content-center p-0  gap-1">
+                                                                <img src="asset/images/home1/material-symbols_edit.png"
+                                                                    alt="">icon 1
+                                                            </span>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="notification pt-2 pb-3">
+                                                    <p class="mb-0"><span>Note</span> : Upload image size&nbsp;<span>
+                                                            image 1
+                                                        </span>- (60*60)px &nbsp; <span class="line">|</span> Only PNG
+                                                        Format
+
+                                                    </p>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="" class="form-label">Heading</label>
+                                                    <input type="text" name="" id="" class="form-control shadow-none"
+                                                        placeholder="" value="Streamlined Performance" />
+
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="" class="form-label">Description</label>
+                                                    <textarea type="text" name="" rows="4" id=""
+                                                        class="form-control shadow-none" placeholder=""
+                                                        value="Streamlined Performance">Optimize your PC's speed and responsiveness with our cutting-edge performance enhancement tools.</textarea>
+
+                                                </div>
+
+                                            </div>
+                                            <div class="update pt-2 pb-2">
+                                                <button type="submit" class="btn">Update</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div>
+                                            <div class="mb-3 bgInner image-box">
+                                                <label for="" class="form-label py-1">Icon</label>
+                                                <div class="icon_box position-relative text-center">
+                                                    <img src="https://thepreview.pro/advance_driver/assets/images/Frame%20(4).png"
+                                                        alt="" class="img-preview">
+                                                    <div class="updatebtn">
+                                                        <label class="upload">
+                                                            <input class="file-input" type="file" />
+                                                            <span
+                                                                class="btn shadow-none bg-transparent d-inline-flex align-items-center justify-content-center p-0  gap-1">
+                                                                <img src="asset/images/home1/material-symbols_edit.png"
+                                                                    alt="">icon 2
+                                                            </span>
+                                                        </label>
+
+                                                    </div>
+                                                </div>
+                                                <div class="notification pt-2 pb-3">
+                                                    <p class="mb-0"><span>Note</span> : Upload image size&nbsp;<span>
+                                                            image 1
+                                                        </span>- (60*60)px &nbsp; <span class="line">|</span> Only PNG
+                                                        Format
+
+                                                    </p>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="" class="form-label">Heading</label>
+                                                    <input type="text" name="" id="" class="form-control shadow-none"
+                                                        placeholder="" value="Streamlined Performance" />
+
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="" class="form-label">Description</label>
+                                                    <textarea type="text" name="" rows="4" id=""
+                                                        class="form-control shadow-none" placeholder=""
+                                                        value="Streamlined Performance">Optimize your PC's speed and responsiveness with our cutting-edge performance enhancement tools.</textarea>
+
+                                                </div>
+
+                                            </div>
+                                            <div class="update pt-3 pb-2">
+                                                <button type="submit" class="btn">Update</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div>
+                                            <div class="mb-3 bgInner image-box">
+                                                <label for="" class="form-label py-1">Icon</label>
+                                                <div class="icon_box position-relative text-center ">
+                                                    <img src="https://thepreview.pro/advance_driver/assets/images/Frame%20(5).png"
+                                                        alt="" class="img-preview">
+                                                    <div class="updatebtn">
+                                                        <label class="upload">
+                                                            <input class="file-input" type="file" />
+                                                            <span
+                                                                class="btn shadow-none bg-transparent d-inline-flex align-items-center justify-content-center p-0  gap-1">
+                                                                <img src="asset/images/home1/material-symbols_edit.png"
+                                                                    alt="">icon 3
+                                                            </span>
+                                                        </label>
+
+                                                    </div>
+                                                </div>
+                                                <div class="notification pt-2 pb-3">
+                                                    <p class="mb-0"><span>Note</span> : Upload image size&nbsp;<span>
+                                                            image 1
+                                                        </span>- (60*60)px &nbsp; <span class="line">|</span> Only PNG
+                                                        Format
+
+                                                    </p>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="" class="form-label">Heading</label>
+                                                    <input type="text" name="" id="" class="form-control shadow-none"
+                                                        placeholder="" value="Streamlined Performance" />
+
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="" class="form-label">Description</label>
+                                                    <textarea type="text" name="" rows="4" id=""
+                                                        class="form-control shadow-none" placeholder=""
+                                                        value="Streamlined Performance"> Simplify system upkeep and ensure smooth operation with our automated maintenance solutions.</textarea>
+
+                                                </div>
+
+                                            </div>
+                                            <div class="update pt-3 pb-2">
+                                                <button type="submit" class="btn">Update</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div>
+                                            <div class="mb-3 bgInner image-box ">
+                                                <label for="" class="form-label py-1">Icon</label>
+                                                <div class="icon_box position-relative text-center">
+                                                    <img src="https://thepreview.pro/advance_driver/assets/images/Frame%20(6).png"
+                                                        alt="" class="img-preview">
+                                                    <div class="updatebtn">
+                                                        <label class="upload">
+                                                            <input class="file-input" type="file" />
+                                                            <span
+                                                                class="btn shadow-none bg-transparent d-inline-flex align-items-center justify-content-center p-0  gap-1">
+                                                                <img src="asset/images/home1/material-symbols_edit.png"
+                                                                    alt="">icon 4
+                                                            </span>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="notification pt-2 pb-3">
+                                                    <p class="mb-0"><span>Note</span> : Upload image size&nbsp;<span>
+                                                            image 1
+                                                        </span>- (60*60)px &nbsp; <span class="line">|</span> Only PNG
+                                                        Format
+
+                                                    </p>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="" class="form-label">Heading</label>
+                                                    <input type="text" name="" id="" class="form-control shadow-none"
+                                                        placeholder="" value="Streamlined Performance" />
+
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="" class="form-label">Description</label>
+                                                    <textarea type="text" name="" rows="4" id=""
+                                                        class="form-control shadow-none" placeholder=""
+                                                        value="Streamlined Performance">Optimize your PC's speed and responsiveness with our cutting-edge performance enhancement tools.</textarea>
+
+                                                </div>
+
+                                            </div>
+                                            <div class="update pt-2 pb-2">
+                                                <button type="submit" class="btn">Update</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div>
+                                            <div class="mb-3 bgInner image-box">
+                                                <label for="" class="form-label py-1">Icon</label>
+                                                <div class="icon_box position-relative text-center">
+                                                    <img src="https://thepreview.pro/advance_driver/assets/images/Frame%20(7).png"
+                                                        alt="" class="img-preview">
+                                                    <div class="updatebtn">
+                                                        <label class="upload">
+                                                            <input class="file-input" type="file" />
+                                                            <span
+                                                                class="btn shadow-none bg-transparent d-inline-flex align-items-center justify-content-center p-0  gap-1">
+                                                                <img src="asset/images/home1/material-symbols_edit.png"
+                                                                    alt="">icon 5
+                                                            </span>
+                                                        </label>
+
+                                                    </div>
+                                                </div>
+                                                <div class="notification pt-2 pb-3">
+                                                    <p class="mb-0"><span>Note</span> : Upload image size&nbsp;<span>
+                                                            image 1
+                                                        </span>- (60*60)px &nbsp; <span class="line">|</span> Only PNG
+                                                        Format
+
+                                                    </p>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="" class="form-label">Heading</label>
+                                                    <input type="text" name="" id="" class="form-control shadow-none"
+                                                        placeholder="" value="Streamlined Performance" />
+
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="" class="form-label">Description</label>
+                                                    <textarea type="text" name="" rows="4" id=""
+                                                        class="form-control shadow-none" placeholder=""
+                                                        value="Streamlined Performance">Optimize your PC's speed and responsiveness with our cutting-edge performance enhancement tools.</textarea>
+
+                                                </div>
+
+                                            </div>
+                                            <div class="update pt-3 pb-2">
+                                                <button type="submit" class="btn">Update</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div>
+                                            <div class="mb-3 bgInner image-box">
+                                                <label for="" class="form-label py-1">Icon</label>
+                                                <div class="icon_box position-relative text-center ">
+                                                    <img src="https://thepreview.pro/advance_driver/assets/images/Frame%20(5).png"
+                                                        alt="" class="img-preview">
+                                                    <div class="updatebtn">
+                                                        <label class="upload">
+                                                            <input class="file-input" type="file" />
+                                                            <span
+                                                                class="btn shadow-none bg-transparent d-inline-flex align-items-center justify-content-center p-0  gap-1">
+                                                                <img src="asset/images/home1/material-symbols_edit.png"
+                                                                    alt="">icon 6
+                                                            </span>
+                                                        </label>
+
+                                                    </div>
+                                                </div>
+                                                <div class="notification pt-2 pb-3">
+                                                    <p class="mb-0"><span>Note</span> : Upload image size&nbsp;<span>
+                                                            image 1
+                                                        </span>- (60*60)px &nbsp; <span class="line">|</span> Only PNG
+                                                        Format
+
+                                                    </p>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="" class="form-label">Heading</label>
+                                                    <input type="text" name="" id="" class="form-control shadow-none"
+                                                        placeholder="" value="Streamlined Performance" />
+
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="" class="form-label">Description</label>
+                                                    <textarea type="text" name="" rows="4" id=""
+                                                        class="form-control shadow-none" placeholder=""
+                                                        value="Streamlined Performance"> Simplify system upkeep and ensure smooth operation with our automated maintenance solutions.</textarea>
+
+                                                </div>
+
+                                            </div>
+                                            <div class="update pt-3 pb-2">
+                                                <button type="submit" class="btn">Update</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </form>
+                        </div>
+                    </section>
+                    <!-- ==========why choose us============ -->
+                    <section class="why-choose-us bgCommon mx-xl-4 mx-lg-1 py-lg-4 my-4">
+                        <div class="container-fluid px-lg-0">
+                            <div class="protection py-3 px-lg">
+                                <h3>Section : Choose Your Plan</h3>
+                            </div>
+                            <hr>
+                            <form action="" method="get" class="pt-3">
+                                <div class="row px-lg">
+                                    <div class="col-lg-3">
+                                        <div class="mb-3">
+                                            <label for="" class="form-label">Super Heading</label>
+                                            <input type="text" name="" id="" class="form-control my-2 shadow-none"
+                                                value="Why Choose Us?" placeholder="" />
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="mb-3">
+                                            <label for="" class="form-label">Heading</label>
+                                            <input type="text" name="" id="" class="form-control my-2 shadow-none"
+                                                value="The Ultimate Protection For Your Privacy" placeholder="" />
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="mb-3">
+                                            <label for="" class="form-label">Button Text</label>
+                                            <input type="button" name="" id=""
+                                                class="form-control my-2 shadow-none text-start" value="Know More"
+                                                placeholder="" />
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="mb-3">
+                                            <label for="" class="form-label">Button URL</label>
+                                            <input type="text" name="" id="" class="form-control my-2 shadow-none"
+                                                value="https://www.example.com" placeholder="" />
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 py-3">
+                                        <div class="mb-3">
+                                            <label for="" class="form-label">Description</label>
+                                            <textarea type="text" name="" id="" rows="5"
+                                                class="form-control my-2 shadow-none"
+                                                value="https://www.example.com">Our suite of tools is meticulously crafted to cater to every aspect of PC optimization, from boosting performance to fortifying security and simplifying maintenance. Join thousands of satisfied users who trust us to deliver seamless and effective solutions for their computing needs.</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="update pt-3 pb-2">
+                                        <button type="submit" class="btn">Update</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </section>
+                    <!-- =============choose your plan cards section=============== -->
+                    <section class="price_section bgCommon mx-xl-4 mx-lg-1 py-lg-4 my-4">
+                        <div class="container-fluid px-lg-0">
+                            <div class="protection py-3 px-lg">
+                                <h3>Section : Choose Your Plan</h3>
+                            </div>
+                            <hr>
+                            <form action="" method="get">
+                                <div class="row px-lg">
+                                    <!-- ======first plan card======= -->
+                                    <div class="col-lg-4 col-md-4 col-12 my-3">
+                                        <div class="price_card bgInner">
+                                            <h3>Card 1 Icon</h3>
+                                            <div
+                                                class="img_icon_box text-center d-flex justify-content-center align-items-center position-relative image-box">
+                                                <img src="https://thepreview.pro/advance_driver/assets/images/logo%202.png"
+                                                    alt="" class="w-75 img-fluid img-preview">
+                                                <div class="updatebtn">
+                                                    <label class="upload">
+                                                        <input class="file-input" type="file" />
+                                                        <span
+                                                            class="btn shadow-none bg-transparent d-inline-flex align-items-center justify-content-center  gap-1">
+                                                            <img src="asset/images/home1/material-symbols_edit.png"
+                                                                alt="">img 1
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="notification pt-2 pb-3">
+                                                <p class="mb-0"><span>Note</span> : Upload image size&nbsp;<span>
+                                                        image 1
+                                                    </span>- (60*60)px &nbsp;<span class="line">|</span> Only PNG Format
+
+                                                </p>
+                                            </div>
+                                            <h3>Price</h3>
+                                            <div class="price_counter mb-3 d-flex align-items-center gap-2">
+                                                <label for="">
+                                                    <p class="mb-0">From $</p>
+                                                </label>
+                                                <input type="text" placeholder="" value="59"
+                                                    class="price shadow-none form-control">
+
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="" class="form-label">Inclusions</label>
+                                                <input type="text" name="" id="" class="form-control shadow-none"
+                                                    placeholder="" value="Driver Updates" />
+                                            </div>
+                                            <div class="mb-3">
+                                                <input type="text" name="" id="" class="form-control shadow-none"
+                                                    placeholder="" value="Hardware Compatibility" />
+                                            </div>
+                                            <div class="mb-3">
+                                                <input type="text" name="" id="" class="form-control shadow-none"
+                                                    placeholder="" value="Automatic Scans" />
+                                            </div>
+                                            <div class="mb-3">
+                                                <input type="text" name="" id="" class="form-control shadow-none"
+                                                    placeholder="" value="Driver Backup" />
+                                            </div>
+                                            <div class="mb-3 d-flex gap-2">
+                                                <input type="text" name="" id="" class="form-control shadow-none"
+                                                    placeholder="" value="Driver Rollback" />
+                                                <label for="" class="add_plan d-flex align-items-center">
+                                                    <span class="iconify text-white fs-1"
+                                                        data-icon="ph:plus-bold"></span></label>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-3 col-12">
+                                                    <div class="btn_text">
+                                                        <label for="" class="pb-2">Button 1 Text</label>
+                                                        <button class="btn">View Products</button>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-3 col-12">
+                                                    <div class="btn_url">
+                                                        <label for="" class="pb-2">Button 1 URL</label>
+                                                        <input type="text" value="https://www.example.com"
+                                                            placeholder="" class="form-control shadow-none">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="update pt-3 pb-2">
+                                            <button type="submit" class="btn">Update</button>
+                                        </div>
+                                    </div>
+                                    <!-- ======second plan card======= -->
+                                    <div class="col-lg-4 col-md-4 col-12 my-3">
+                                        <div class="price_card bgInner">
+                                            <h3>Card 2 Icon</h3>
+                                            <div
+                                                class="img_icon_box text-center d-flex justify-content-center align-items-center position-relative image-box">
+                                                <img src="https://thepreview.pro/advance_driver/assets/images/logo%203.png"
+                                                    alt="" class="w-75 img-fluid img-preview">
+                                                <div class="updatebtn">
+                                                    <label class="upload">
+                                                        <input class="file-input" type="file" />
+                                                        <span
+                                                            class="btn shadow-none bg-transparent d-inline-flex align-items-center justify-content-center  gap-1">
+                                                            <img src="asset/images/home1/material-symbols_edit.png"
+                                                                alt="">img 2
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="notification pt-2 pb-3">
+                                                <p class="mb-0"><span>Note</span> : Upload image size&nbsp;<span>
+                                                        image 1
+                                                    </span>- (60*60)px &nbsp;<span class="line">|</span> Only PNG Format
+
+                                                </p>
+                                            </div>
+                                            <h3>Price</h3>
+                                            <div class="price_counter mb-3 d-flex align-items-center gap-2">
+                                                <label for="">
+                                                    <p class="mb-0">From $</p>
+                                                </label>
+                                                <input type="text" placeholder="" value="59"
+                                                    class="price shadow-none form-control">
+
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="" class="form-label">Inclusions</label>
+                                                <input type="text" name="" id="" class="form-control shadow-none"
+                                                    placeholder="" value="Driver Updates" />
+                                            </div>
+                                            <div class="mb-3">
+                                                <input type="text" name="" id="" class="form-control shadow-none"
+                                                    placeholder="" value="Hardware Compatibility" />
+                                            </div>
+                                            <div class="mb-3">
+                                                <input type="text" name="" id="" class="form-control shadow-none"
+                                                    placeholder="" value="Automatic Scans" />
+                                            </div>
+                                            <div class="mb-3">
+                                                <input type="text" name="" id="" class="form-control shadow-none"
+                                                    placeholder="" value="Driver Backup" />
+                                            </div>
+                                            <div class="mb-3 d-flex gap-2">
+                                                <input type="text" name="" id="" class="form-control shadow-none"
+                                                    placeholder="" value="Driver Rollback" />
+                                                <label for="" class="add_plan d-flex align-items-center">
+                                                    <span class="iconify text-white fs-1"
+                                                        data-icon="ph:plus-bold"></span></label>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-3 col-12">
+                                                    <div class="btn_text">
+                                                        <label for="" class="pb-2">Button 1 Text</label>
+                                                        <button class="btn">View Products</button>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-3 col-12">
+                                                    <div class="btn_url">
+                                                        <label for="" class="pb-2">Button 1 URL</label>
+                                                        <input type="text" value="https://www.example.com"
+                                                            placeholder="" class="form-control shadow-none">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="update pt-3 pb-2">
+                                            <button type="submit" class="btn">Update</button>
+                                        </div>
+                                    </div>
+                                    <!-- ======Third plan card======= -->
+                                    <div class="col-lg-4 col-md-4 col-12 my-3">
+                                        <div class="price_card bgInner">
+                                            <h3>Card 3 Icon</h3>
+                                            <div
+                                                class="img_icon_box text-center d-flex justify-content-center align-items-center position-relative image-box">
+                                                <img src="https://thepreview.pro/advance_driver/assets/images/logo%204.png"
+                                                    alt="" class="w-75 img-fluid img-preview">
+                                                <div class="updatebtn">
+                                                    <label class="upload">
+                                                        <input class="file-input" type="file" />
+                                                        <span
+                                                            class="btn shadow-none bg-transparent d-inline-flex align-items-center justify-content-center  gap-1">
+                                                            <img src="asset/images/home1/material-symbols_edit.png"
+                                                                alt="">img 3
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="notification pt-2 pb-3">
+                                                <p class="mb-0"><span>Note</span> : Upload image size&nbsp;<span>
+                                                        image 1
+                                                    </span>- (60*60)px &nbsp;<span class="line">|</span> Only PNG Format
+
+                                                </p>
+                                            </div>
+                                            <h3>Price</h3>
+                                            <div class="price_counter mb-3 d-flex align-items-center gap-2">
+                                                <label for="">
+                                                    <p class="mb-0">From $</p>
+                                                </label>
+                                                <input type="text" placeholder="" value="59"
+                                                    class="price shadow-none form-control">
+
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="" class="form-label">Inclusions</label>
+                                                <input type="text" name="" id="" class="form-control shadow-none"
+                                                    placeholder="" value="Driver Updates" />
+                                            </div>
+                                            <div class="mb-3">
+                                                <input type="text" name="" id="" class="form-control shadow-none"
+                                                    placeholder="" value="Hardware Compatibility" />
+                                            </div>
+                                            <div class="mb-3">
+                                                <input type="text" name="" id="" class="form-control shadow-none"
+                                                    placeholder="" value="Automatic Scans" />
+                                            </div>
+                                            <div class="mb-3">
+                                                <input type="text" name="" id="" class="form-control shadow-none"
+                                                    placeholder="" value="Driver Backup" />
+                                            </div>
+                                            <div class="mb-3 d-flex gap-2">
+                                                <input type="text" name="" id="" class="form-control shadow-none"
+                                                    placeholder="" value="Driver Rollback" />
+                                                <label for="" class="add_plan d-flex align-items-center">
+                                                    <span class="iconify text-white fs-1"
+                                                        data-icon="ph:plus-bold"></span></label>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-3 col-12">
+                                                    <div class="btn_text">
+                                                        <label for="" class="pb-2">Button 1 Text</label>
+                                                        <button class="btn">View Products</button>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-3 col-12">
+                                                    <div class="btn_url">
+                                                        <label for="" class="pb-2">Button 1 URL</label>
+                                                        <input type="text" value="https://www.example.com"
+                                                            placeholder="" class="form-control shadow-none">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="update pt-3 pb-2">
+                                            <button type="submit" class="btn">Update</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </section>
+                    <!-- ==========why choose us============ -->
+                    <section class="why-choose-us bgCommon mx-xl-4 mx-lg-1 py-lg-4 my-4">
+                        <div class="container-fluid px-lg-0">
+                            <div class="protection py-3 px-lg">
+                                <h3>Section : Hear from Our Satisfied Customers</h3>
+                            </div>
+                            <hr>
+                            <form action="" method="get" class="pt-3">
+                                <div class="row px-lg">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="" class="form-label">Super Heading</label>
+                                            <input type="text" name="" id="" class="form-control my-2 shadow-none"
+                                                value="Hear from Our Satisfied Customers" placeholder="" />
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="" class="form-label">Heading</label>
+                                            <input type="text" name="" id="" class="form-control my-2 shadow-none"
+                                                value="What Our Users Say" placeholder="" />
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-12 py-3">
+                                        <div class="mb-3">
+                                            <label for="" class="form-label">Description</label>
+                                            <textarea type="text" name="" id="" rows="5"
+                                                class="form-control my-2 shadow-none"
+                                                value="https://www.example.com">Discover firsthand experiences from our satisfied customers who have benefited from our suite of PC enhancement tools. Read their testimonials to learn how our solutions have transformed their computing experience and why they trust us for their PC optimization needs.</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="update pt-3 pb-2">
+                                        <button type="submit" class="btn">Update</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </section>
+                    <!-- ==========testimonials section============== -->
+                    <section class="testimonials_section bgCommon mx-xl-4 mx-lg-1 py-lg-4 my-4">
+                        <div class="container-fluid px-lg-0">
+                            <div class="protection py-3 px-lg">
+                                <h3>Section : Hear from Our Satisfied Customers</h3>
+                            </div>
+                            <hr>
+                            <form get="" action="">
+                                <div class="row px-lg pt-3">
+                                    <!-- ============card 1======= -->
+                                    <div class="col-lg-4">
+                                        <div class="bgInner">
+                                            <div class="testimonial_img position-relative image-box">
+                                                <img src="https://thepreview.pro/advance_driver/assets/images/slide-1.png"
+                                                    alt="" class="w-100 testi img-fluid img-preview">
+                                                <div class="updatebtn">
+                                                    <label class="upload">
+                                                        <input class="file-input" type="file" />
+                                                        <span
+                                                            class="btn shadow-none bg-transparent d-inline-flex align-items-center justify-content-center  gap-1">
+                                                            <img src="asset/images/home1/material-symbols_edit.png"
+                                                                alt="">img 1
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="notification pt-2 pb-3">
+                                                <p class="mb-0"><span>Note</span> : Upload image size&nbsp;<span>
+                                                        image 1
+                                                    </span>- (239*239)px
+                                                </p>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="" class="form-label">Testimonial</label>
+                                                <textarea type="text" name="" rows="4" id=""
+                                                    class="form-control shadow-none"
+                                                    placeholder="">Lorem ipsum dolor sit amet, consectetur adipis elit. Sitenim nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.</textarea>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="" class="form-label">Client Name</label>
+                                                <input type="text" name="" id="" class="form-control shadow-none"
+                                                    value="Jenny Wilson" placeholder="" />
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="" class="form-label">Client’s Business Name</label>
+                                                <input type="text" name="" id="" class="form-control shadow-none"
+                                                    value="Example.co" placeholder="" />
+                                            </div>
+
+                                        </div>
+                                        <div class="update pt-3 pb-2">
+                                            <button type="submit" class="btn">Update</button>
+                                        </div>
+                                    </div>
+                                    <!-- ============card 2======= -->
+                                    <div class="col-lg-4">
+                                        <div class="bgInner">
+                                            <div class="testimonial_img position-relative image-box">
+                                                <img src="https://thepreview.pro/advance_driver/assets/images/slide-3.png"
+                                                    alt="" class="w-100 testi img-fluid img-preview">
+                                                <div class="updatebtn">
+                                                    <label class="upload">
+                                                        <input class="file-input" type="file" />
+                                                        <span
+                                                            class="btn shadow-none bg-transparent d-inline-flex align-items-center justify-content-center  gap-1">
+                                                            <img src="asset/images/home1/material-symbols_edit.png"
+                                                                alt="">img 2
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="notification pt-2 pb-3">
+                                                <p class="mb-0"><span>Note</span> : Upload image size&nbsp;<span>
+                                                        image 1
+                                                    </span>- (239*239)px
+                                                </p>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="" class="form-label">Testimonial</label>
+                                                <textarea type="text" name="" rows="4" id=""
+                                                    class="form-control shadow-none"
+                                                    placeholder="">Lorem ipsum dolor sit amet, consectetur adipis elit. Sitenim nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.</textarea>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="" class="form-label">Client Name</label>
+                                                <input type="text" name="" id="" class="form-control shadow-none"
+                                                    value="Jenny Wilson" placeholder="" />
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="" class="form-label">Client’s Business Name</label>
+                                                <input type="text" name="" id="" class="form-control shadow-none"
+                                                    value="Example.co" placeholder="" />
+                                            </div>
+
+                                        </div>
+                                        <div class="update pt-3 pb-2">
+                                            <button type="submit" class="btn">Update</button>
+                                        </div>
+                                    </div>
+                                    <!-- =============card 3=========== -->
+                                    <div class="col-lg-4">
+                                        <div class="bgInner">
+                                            <div class="testimonial_img position-relative image-box">
+                                                <img src="https://thepreview.pro/advance_driver/assets/images/slide-2.png"
+                                                    alt="" class="w-100 testi img-fluid img-preview">
+                                                <div class="updatebtn">
+                                                    <label class="upload">
+                                                        <input class="file-input" type="file" />
+                                                        <span
+                                                            class="btn shadow-none bg-transparent d-inline-flex align-items-center justify-content-center  gap-1">
+                                                            <img src="asset/images/home1/material-symbols_edit.png"
+                                                                alt="">img 3
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="notification pt-2 pb-3">
+                                                <p class="mb-0"><span>Note</span> : Upload image size&nbsp;<span>
+                                                        image 1
+                                                    </span>- (239*239)px
+                                                </p>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="" class="form-label">Testimonial</label>
+                                                <textarea type="text" name="" rows="4" id=""
+                                                    class="form-control shadow-none"
+                                                    placeholder="">Lorem ipsum dolor sit amet, consectetur adipis elit. Sitenim nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.</textarea>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="" class="form-label">Client Name</label>
+                                                <input type="text" name="" id="" class="form-control shadow-none"
+                                                    value="Jenny Wilson" placeholder="" />
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="" class="form-label">Client’s Business Name</label>
+                                                <input type="text" name="" id="" class="form-control shadow-none"
+                                                    value="Example.co" placeholder="" />
+                                            </div>
+
+                                        </div>
+                                        <div class="update pt-3 pb-2">
+                                            <button type="submit" class="btn">Update</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </section>
+                    <!-- ===========Product section 1============ -->
+                    <section class="Frequently bgCommon product-1 mx-xl-4 mx-lg-1 py-lg-4 my-4">
+                        <div class="container-fluid px-lg-0">
+                            <div class="protection py-3 px-lg">
+                                <h3>Section : Frequently Asked Questions</h3>
+                            </div>
+                            <hr>
+                            <form action="" method="get">
+                                <div class="row px-lg">
+                                    <div class="col-lg-5">
+                                        <div class="product_box_1 image-box">
+                                            <label for="" class="py-2">Image</label>
+                                            <div class="Frequently_box text-center position-relative">
+                                                <img src="https://thepreview.pro/advance_driver/assets/images/faqs.png"
+                                                    alt="" class="freq img-preview">
+                                                <div class="updatebtn">
+                                                    <label class="upload">
+                                                        <input class="file-input" type="file" />
+                                                        <span
+                                                            class="btn shadow-none bg-transparent d-inline-flex align-items-center justify-content-center gap-1">
+                                                            <img src="asset/images/home1/material-symbols_edit.png"
+                                                                alt="">icon 3
+                                                        </span>
+                                                    </label>
+
+                                                </div>
+                                            </div>
+                                            <div class="notification pt-2 pb-3">
+                                                <p class="mb-0"><span>Note</span> : Upload image size&nbsp;<span>
+                                                        image 1
+                                                    </span>- (524*616)px
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-7 py-2">
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="mb-4">
+                                                    <label for="" class="form-label">Super Heading</label>
+                                                    <input type="text" name="" id="" class="form-control" placeholder=""
+                                                        value="Frequently Asked Questions" />
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="mb-4">
+                                                    <label for="" class="form-label">Heading</label>
+                                                    <input type="text" name="" id="" class="form-control" placeholder=""
+                                                        value="Have Questions? We Have Answers." />
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-3 col-12">
+                                                <div class="btn_text mb-4">
+                                                    <label for="" class="pb-2">Button 1 Text</label>
+                                                    <input type="button" class="btn"
+                                                        value="View More Questions"></input>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-3 col-12">
+                                                <div class="btn_url mb-4">
+                                                    <label for="" class="pb-2">Button 1 URL</label>
+                                                    <input type="text" value="https://www.example.com" placeholder=""
+                                                        class="form-control shadow-none">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12 py-4">
+                                                <div class="">
+                                                    <label for="" class="form-label">Description</label>
+                                                    <textarea type="text" name="" id="" rows="5" class="form-control"
+                                                        placeholder=""> Windriver Tool ensures that your system stays up-to-date with the latest drivers, ensuring optimal performance and compatibility with your hardware. Forget the hassle of manually updating drivers; let Windriver Tool automate the process for you, so you can focus on what matters most - uninterrupted productivity.
+                                    </textarea>
+                                                </div>
+                                            </div>
+
+
+
+
+                                        </div>
+                                    </div>
+                                    <div class="bgInner FAQs">
+                                        <div class="row px-lg">
+                                            <div class="col-lg-6 col-md-6 col-12 my-3">
+                                                <div class="FAQs Questions">
+                                                    <div class="form-check mb-4">
+                                                        <input class="form-check-input shadow-none" type="checkbox"
+                                                            value="" id="faqs-1" checked />
+                                                        <label class="form-check-label" for="faqs-1">
+                                                            <h3 class="mb-0 pt-1 ps-2">FAQs 1</h3>
+                                                        </label>
+                                                    </div>
+
+                                                    <div class="mb-4">
+                                                        <input type="text" name="" id=""
+                                                            class="form-control shadow-none"
+                                                            value="Is Advance Driver compatible with all operating systems?"
+                                                            placeholder="" />
+                                                    </div>
+                                                    <div class="mb-4">
+                                                        <textarea type="text" name="" rows="4" id=""
+                                                            class="form-control shadow-none"
+                                                            placeholder="">Advance Driver is compatible with most Windows operating systems, including Windows 10, 8.1, 8, and 7. However, compatibility may vary depending on the specific hardware configuration and system requirements.</textarea>
+                                                    </div>
+
+                                                    <div class="form-check mb-4">
+                                                        <input class="form-check-input shadow-none" type="checkbox"
+                                                            value="" id="faqs-3" checked />
+                                                        <label class="form-check-label" for="faqs-3">
+                                                            <h3 class="mb-0 pt-1 ps-2">FAQs 3</h3>
+                                                        </label>
+                                                    </div>
+
+                                                    <div class="mb-4">
+                                                        <input type="text" name="" id=""
+                                                            class="form-control shadow-none"
+                                                            value="Is Advance Driver compatible with all operating systems?"
+                                                            placeholder="" />
+                                                    </div>
+                                                    <div class="mb-4">
+                                                        <textarea type="text" name="" rows="4" id=""
+                                                            class="form-control shadow-none"
+                                                            placeholder="">Advance Driver is compatible with most Windows operating systems, including Windows 10, 8.1, 8, and 7. However, compatibility may vary depending on the specific hardware configuration and system requirements.</textarea>
+                                                    </div>
+                                                    <div class="form-check mb-4">
+                                                        <input class="form-check-input shadow-none" type="checkbox"
+                                                            value="" id="faqs-5" checked />
+                                                        <label class="form-check-label" for="faqs-5">
+                                                            <h3 class="mb-0 pt-1 ps-2">FAQs 5</h3>
+                                                        </label>
+                                                    </div>
+
+                                                    <div class="mb-4">
+                                                        <input type="text" name="" id=""
+                                                            class="form-control shadow-none"
+                                                            value="Is Advance Driver compatible with all operating systems?"
+                                                            placeholder="" />
+                                                    </div>
+                                                    <div class="mb-4">
+                                                        <textarea type="text" name="" rows="4" id=""
+                                                            class="form-control shadow-none"
+                                                            placeholder="">Advance Driver is compatible with most Windows operating systems, including Windows 10, 8.1, 8, and 7. However, compatibility may vary depending on the specific hardware configuration and system requirements.</textarea>
+                                                    </div>
+                                                    <div class="form-check mb-4">
+                                                        <input class="form-check-input shadow-none" type="checkbox"
+                                                            value="" id="faqs-7" checked />
+                                                        <label class="form-check-label" for="faqs-7">
+                                                            <h3 class="mb-0 pt-1 ps-2">FAQs 7</h3>
+                                                        </label>
+                                                    </div>
+
+                                                    <div class="mb-4">
+                                                        <input type="text" name="" id=""
+                                                            class="form-control shadow-none"
+                                                            value="Is Advance Driver compatible with all operating systems?"
+                                                            placeholder="" />
+                                                    </div>
+                                                    <div class="mb-4">
+                                                        <textarea type="text" name="" rows="4" id=""
+                                                            class="form-control shadow-none"
+                                                            placeholder="">Advance Driver is compatible with most Windows operating systems, including Windows 10, 8.1, 8, and 7. However, compatibility may vary depending on the specific hardware configuration and system requirements.</textarea>
+                                                    </div>
+                                                    <div class="form-check mb-4">
+                                                        <input class="form-check-input shadow-none" type="checkbox"
+                                                            value="" id="faqs-9" checked />
+                                                        <label class="form-check-label" for="faqs-9">
+                                                            <h3 class="mb-0 pt-1 ps-2">FAQs 9</h3>
+                                                        </label>
+                                                    </div>
+
+                                                    <div class="mb-4">
+                                                        <input type="text" name="" id=""
+                                                            class="form-control shadow-none"
+                                                            value="Is Advance Driver compatible with all operating systems?"
+                                                            placeholder="" />
+                                                    </div>
+                                                    <div class="mb-4">
+                                                        <textarea type="text" name="" rows="4" id=""
+                                                            class="form-control shadow-none"
+                                                            placeholder="">Advance Driver is compatible with most Windows operating systems, including Windows 10, 8.1, 8, and 7. However, compatibility may vary depending on the specific hardware configuration and system requirements.</textarea>
+                                                    </div>
+                                                    <div class="form-check mb-4">
+                                                        <input class="form-check-input shadow-none" type="checkbox"
+                                                            value="" id="faqs-11" checked />
+                                                        <label class="form-check-label" for="faqs-11">
+                                                            <h3 class="mb-0 pt-1 ps-2">FAQs 11</h3>
+                                                        </label>
+                                                    </div>
+
+                                                    <div class="mb-4">
+                                                        <input type="text" name="" id=""
+                                                            class="form-control shadow-none"
+                                                            value="Is Advance Driver compatible with all operating systems?"
+                                                            placeholder="" />
+                                                    </div>
+                                                    <div class="mb-4">
+                                                        <textarea type="text" name="" rows="4" id=""
+                                                            class="form-control shadow-none"
+                                                            placeholder="">Advance Driver is compatible with most Windows operating systems, including Windows 10, 8.1, 8, and 7. However, compatibility may vary depending on the specific hardware configuration and system requirements.</textarea>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 col-12 my-3">
+                                                <div class="FAQs Questions">
+                                                    <div class="form-check mb-4">
+                                                        <input class="form-check-input shadow-none" type="checkbox"
+                                                            value="" id="faqs-2" checked />
+                                                        <label class="form-check-label" for="faqs-2">
+                                                            <h3 class="mb-0 pt-1 ps-2">FAQs 2</h3>
+                                                        </label>
+                                                    </div>
+
+                                                    <div class="mb-4">
+                                                        <input type="text" name="" id=""
+                                                            class="form-control shadow-none"
+                                                            value="Is Advance Driver compatible with all operating systems?"
+                                                            placeholder="" />
+                                                    </div>
+                                                    <div class="mb-4">
+                                                        <textarea type="text" name="" rows="4" id=""
+                                                            class="form-control shadow-none"
+                                                            placeholder="">Advance Driver is compatible with most Windows operating systems, including Windows 10, 8.1, 8, and 7. However, compatibility may vary depending on the specific hardware configuration and system requirements.</textarea>
+                                                    </div>
+
+                                                    <div class="form-check mb-4">
+                                                        <input class="form-check-input shadow-none" type="checkbox"
+                                                            value="" id="faqs-4" checked />
+                                                        <label class="form-check-label" for="faqs-4">
+                                                            <h3 class="mb-0 pt-1 ps-2">FAQs 4</h3>
+                                                        </label>
+                                                    </div>
+
+                                                    <div class="mb-4">
+                                                        <input type="text" name="" id=""
+                                                            class="form-control shadow-none"
+                                                            value="Is Advance Driver compatible with all operating systems?"
+                                                            placeholder="" />
+                                                    </div>
+                                                    <div class="mb-4">
+                                                        <textarea type="text" name="" rows="4" id=""
+                                                            class="form-control shadow-none"
+                                                            placeholder="">Advance Driver is compatible with most Windows operating systems, including Windows 10, 8.1, 8, and 7. However, compatibility may vary depending on the specific hardware configuration and system requirements.</textarea>
+                                                    </div>
+                                                    <div class="form-check mb-4">
+                                                        <input class="form-check-input shadow-none" type="checkbox"
+                                                            value="" id="faqs-6" checked />
+                                                        <label class="form-check-label" for="faqs-6">
+                                                            <h3 class="mb-0 pt-1 ps-2">FAQs 6</h3>
+                                                        </label>
+                                                    </div>
+
+                                                    <div class="mb-4">
+                                                        <input type="text" name="" id=""
+                                                            class="form-control shadow-none"
+                                                            value="Is Advance Driver compatible with all operating systems?"
+                                                            placeholder="" />
+                                                    </div>
+                                                    <div class="mb-4">
+                                                        <textarea type="text" name="" rows="4" id=""
+                                                            class="form-control shadow-none"
+                                                            placeholder="">Advance Driver is compatible with most Windows operating systems, including Windows 10, 8.1, 8, and 7. However, compatibility may vary depending on the specific hardware configuration and system requirements.</textarea>
+                                                    </div>
+                                                    <div class="form-check mb-4">
+                                                        <input class="form-check-input shadow-none" type="checkbox"
+                                                            value="" id="faqs-8" checked />
+                                                        <label class="form-check-label" for="faqs-8">
+                                                            <h3 class="mb-0 pt-1 ps-2">FAQs 8</h3>
+                                                        </label>
+                                                    </div>
+
+                                                    <div class="mb-4">
+                                                        <input type="text" name="" id=""
+                                                            class="form-control shadow-none"
+                                                            value="Is Advance Driver compatible with all operating systems?"
+                                                            placeholder="" />
+                                                    </div>
+                                                    <div class="mb-4">
+                                                        <textarea type="text" name="" rows="4" id=""
+                                                            class="form-control shadow-none"
+                                                            placeholder="">Advance Driver is compatible with most Windows operating systems, including Windows 10, 8.1, 8, and 7. However, compatibility may vary depending on the specific hardware configuration and system requirements.</textarea>
+                                                    </div>
+                                                    <div class="form-check mb-4">
+                                                        <input class="form-check-input shadow-none" type="checkbox"
+                                                            value="" id="faqs-10" checked />
+                                                        <label class="form-check-label" for="faqs-10">
+                                                            <h3 class="mb-0 pt-1 ps-2">FAQs 10</h3>
+                                                        </label>
+                                                    </div>
+
+                                                    <div class="mb-4">
+                                                        <input type="text" name="" id=""
+                                                            class="form-control shadow-none"
+                                                            value="Is Advance Driver compatible with all operating systems?"
+                                                            placeholder="" />
+                                                    </div>
+                                                    <div class="mb-4">
+                                                        <textarea type="text" name="" rows="4" id=""
+                                                            class="form-control shadow-none"
+                                                            placeholder="">Advance Driver is compatible with most Windows operating systems, including Windows 10, 8.1, 8, and 7. However, compatibility may vary depending on the specific hardware configuration and system requirements.</textarea>
+                                                    </div>
+                                                    <div class="form-check mb-4">
+                                                        <input class="form-check-input shadow-none" type="checkbox"
+                                                            value="" id="faqs-12" checked />
+                                                        <label class="form-check-label" for="faqs-12">
+                                                            <h3 class="mb-0 pt-1 ps-2">FAQs 12</h3>
+                                                        </label>
+                                                    </div>
+
+                                                    <div class="mb-4">
+                                                        <input type="text" name="" id=""
+                                                            class="form-control shadow-none"
+                                                            value="Is Advance Driver compatible with all operating systems?"
+                                                            placeholder="" />
+                                                    </div>
+                                                    <div class="mb-4">
+                                                        <textarea type="text" name="" rows="4" id=""
+                                                            class="form-control shadow-none"
+                                                            placeholder="">Advance Driver is compatible with most Windows operating systems, including Windows 10, 8.1, 8, and 7. However, compatibility may vary depending on the specific hardware configuration and system requirements.</textarea>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="update pt-2 pb-2">
+                                                <button type="submit" class="btn">Update</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </form>
+
+                        </div>
+                    </section>
+                    <!-- =======gap============= -->
+                    <div class="pb-2">
+
+                    </div>
+                    <!-- ===============inner container End section============== -->
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/iconify/2.0.0/iconify.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="/path/to/cdn/jquery.min.js"></script>
+
+<script src="asset/js/main.js"></script>
+
+</html>
